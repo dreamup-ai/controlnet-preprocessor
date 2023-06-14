@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+# push each tag in base-tags.txt
+while read -r tag; do
+  docker push "$tag"
+done < models-tags.txt
