@@ -60,11 +60,16 @@ curl  -X GET \
 
 Upload an image, and get the processed, annotated image back. The image you receive back is what you should pass to controlnet as the source image.
 
+### Original Image
+![Original Image](./images/original.png)
+
+### softedge_hedsafe version
+![softedge_hedsafe version](./images/softedge_hedsafe.webp)
 ### cURL
 
 ```bash
 curl  -X POST \
-  'http://localhost:2222/image/<processor-id>' \
+  'http://localhost:2222/image/softedge_hedsafe' \
   --header 'Content-Type: application/octet-stream' \
   --data-binary '@/path/to/image.png'
 ```
