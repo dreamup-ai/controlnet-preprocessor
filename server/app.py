@@ -15,7 +15,7 @@ from controlnet_aux import (
     LineartAnimeDetector,
     CannyDetector,
     ContentShuffleDetector,
-    ZoeDetector,
+    # ZoeDetector,
     MediapipeFaceDetector,
     SamDetector,
     LeresDetector,
@@ -46,7 +46,7 @@ pidi = PidiNetDetector.from_pretrained(annotator_path)
 normal_bae = NormalBaeDetector.from_pretrained(annotator_path)
 lineart = LineartDetector.from_pretrained(annotator_path)
 lineart_anime = LineartAnimeDetector.from_pretrained(annotator_path)
-zoe = ZoeDetector.from_pretrained(annotator_path)
+# zoe = ZoeDetector.from_pretrained(annotator_path)
 sam = SamDetector.from_pretrained(os.path.join(sam_path, sam_subfolder))
 leres = LeresDetector.from_pretrained(annotator_path)
 
@@ -70,23 +70,23 @@ processors = {
     },
     "depth_midas": {"class": midas, "config": {}},
     "mlsd": {"class": mlsd, "config": {}},
-    "open_pose": {
+    "openpose": {
         "class": open_pose,
         "config": {"include_body": True, "include_hand": False, "include_face": False},
     },
-    "open_pose_face": {
+    "openpose_face": {
         "class": open_pose,
         "config": {"include_body": True, "include_hand": False, "include_face": True},
     },
-    "open_pose_faceonly": {
+    "openpose_faceonly": {
         "class": open_pose,
         "config": {"include_body": False, "include_hand": False, "include_face": True},
     },
-    "open_pose_full": {
+    "openpose_full": {
         "class": open_pose,
         "config": {"include_body": True, "include_hand": True, "include_face": True},
     },
-    "open_pose_hand": {
+    "openpose_hand": {
         "class": open_pose,
         "config": {"include_body": False, "include_hand": True, "include_face": False},
     },
@@ -112,7 +112,7 @@ processors = {
     "lineart_anime": {"class": lineart_anime, "config": {}},
     "canny": {"class": canny, "config": {}},
     "shuffle": {"class": content, "config": {}},
-    "depth_zoe": {"class": zoe, "config": {}},
+    # "depth_zoe": {"class": zoe, "config": {}},
     "depth_leres": {"class": leres, "config": {"boost": False}},
     "depth_leres++": {"class": leres, "config": {"boost": True}},
     "mediapipe_face": {"class": face_detector, "config": {}},
@@ -124,6 +124,12 @@ processors = {
 def hc():
     log.info({"version": VERSION})
     return make_response(jsonify({"version": VERSION}), 200)
+
+
+@app.get("/processors")
+def get_processors():
+    # return just the processor ids
+    return make_response(jsonify({"processors": list(processors.keys())}), 200)
 
 
 @app.post("/image/<processor_id>")
