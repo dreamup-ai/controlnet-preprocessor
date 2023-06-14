@@ -1,0 +1,17 @@
+FROM python:3.11-slim-bullseye
+
+WORKDIR /app
+
+# Install the WSGI server
+RUN pip install --no-cache-dir waitress
+
+# Install the requirements
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# # Copy the code
+WORKDIR /app
+COPY server .
+
+# Run the server
+CMD ["python", "app.py"]

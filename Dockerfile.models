@@ -1,0 +1,12 @@
+ARG BASE_VERSION=base
+
+FROM shawndreamupai/controlnet-preprocessor:${BASE_VERSION}
+
+# Get the local path of models via build args
+ARG ANNOTATOR_PATH
+ARG SAM_PATH
+
+# Copy the models into the image
+WORKDIR /models
+COPY $ANNOTATOR_PATH /models/lllyasviel/Annotators/
+COPY $SAM_PATH /models/ybelkada/segment-anything/checkpoints/

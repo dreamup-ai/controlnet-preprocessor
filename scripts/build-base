@@ -1,0 +1,18 @@
+#! /usr/bin/env bash
+
+# Figure out if we need python or python3
+PYTHON=$(which python3 || which python)
+
+IMAGE_REPO=${IMAGE_REPO:-shawndreamupai/controlnet-preprocessor}
+VERSION=$($PYTHON -c 'from server.__version__ import VERSION; print(VERSION)')
+
+docker build \
+-t "$IMAGE_REPO:base" \
+-t "$IMAGE_REPO:$VERSION" \
+-f Dockerfile.base .
+
+# Export the tags to a file
+echo "$IMAGE_REPO:base" > base-tags.txt
+echo "$IMAGE_REPO:$VERSION" >> base-tags.txt
+
+echo "base-tags.txt"

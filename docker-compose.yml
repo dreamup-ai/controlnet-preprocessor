@@ -1,0 +1,9 @@
+services:
+  controlnet-preprocessor:
+    image: shawndreamupai/controlnet-processor:latest
+    runtime: nvidia
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"

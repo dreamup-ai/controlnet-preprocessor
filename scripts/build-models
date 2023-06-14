@@ -1,0 +1,33 @@
+#! /usr/bin/env bash
+
+# Figure out if we need python or python3
+PYTHON=$(which python3 || which python)
+
+IMAGE_REPO=${IMAGE_REPO:-shawndreamupai/controlnet-preprocessor}
+BASE_VERSION=${BASE_VERSION:-$($PYTHON -c 'from server.__version__ import VERSION; print(VERSION)')}
+ANNOTATOR_PATH=${ANNOTATOR_PATH:-models/lllyasviel/Annotators}
+SAM_PATH=${SAM_PATH:-models/ybelkada/segment-anything/checkpoints}
+
+pushd $ANNOTATOR_PATH
+ANNOTATOR_VERSION=$(git rev-parse origin/main | cut -c1-4)
+popd
+
+pushd $SAM_PATH
+SAM_VERSION=$(git rev-parse origin/main | cut -c1-4)
+popd
+
+docker build \
+--build-arg "BASE_VERSION=$BASE_VERSION" \
+--build-arg "ANNOTATOR_PATH=$ANNOTATOR_PATH" \
+--build-arg "SAM_PATH=$SAM_PATH" \
+-t "$IMAGE_REPO:latest" \
+-t "$IMAGE_REPO:$BASE_VERSION-latest" \
+-t "$IMAGE_REPO:$BASE_VERSION-$ANNOTATOR_VERSION-$SAM_VERSION" \
+-f Dockerfile.models .
+
+# Export the tags to a file
+echo "$IMAGE_REPO:latest" > models-tags.txt
+echo "$IMAGE_REPO:$BASE_VERSION-latest" >> models-tags.txt
+echo "$IMAGE_REPO:$BASE_VERSION-$ANNOTATOR_VERSION-$SAM_VERSION" >> models-tags.txt
+
+echo "models-tags.txt"
