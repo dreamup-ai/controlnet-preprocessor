@@ -1,7 +1,8 @@
-from flask import Flask, request, Response
+from flask import Flask, request, make_response, jsonify, send_file
 from PIL import Image
 from io import BytesIO
 import os
+import logging
 from waitress import serve
 from controlnet_aux import (
     HEDdetector,
@@ -21,6 +22,11 @@ from controlnet_aux import (
 )
 from __version__ import VERSION
 
+log = logging.getLogger()
+log.setLevel(logging.INFO)
+
+log.info("Version: ", VERSION)
+
 # Load config from the environment
 host = os.environ.get("HOST", "localhost")
 port = os.environ.get("PORT", 2222)
@@ -31,6 +37,7 @@ sam_subfolder = os.environ.get("SAM_SUBFOLDER", "checkpoints")
 app = Flask(__name__)
 
 # load checkpoints
+log.info("Loading checkpoints...")
 hed = HEDdetector.from_pretrained(annotator_path)
 midas = MidasDetector.from_pretrained(annotator_path)
 mlsd = MLSDdetector.from_pretrained(annotator_path)
@@ -40,7 +47,7 @@ normal_bae = NormalBaeDetector.from_pretrained(annotator_path)
 lineart = LineartDetector.from_pretrained(annotator_path)
 lineart_anime = LineartAnimeDetector.from_pretrained(annotator_path)
 zoe = ZoeDetector.from_pretrained(annotator_path)
-sam = SamDetector.from_pretrained(sam_path, subfolder=sam_subfolder)
+sam = SamDetector.from_pretrained(os.path.join(sam_path, sam_subfolder))
 leres = LeresDetector.from_pretrained(annotator_path)
 
 # instantiate
@@ -48,105 +55,107 @@ canny = CannyDetector()
 content = ContentShuffleDetector()
 face_detector = MediapipeFaceDetector()
 
+log.info("Checkpoints loaded.")
+
 processors = {
-    "hed": {"class": HEDdetector, "config": {"scribble": True}},
-    "softedge_hed": {"class": HEDdetector, "config": {"scribble": False}},
+    "scribble_hed": {"class": hed, "config": {"scribble": True}},
+    "softedge_hed": {"class": hed, "config": {"scribble": False}},
     "scribble_hedsafe": {
-        "class": HEDdetector,
+        "class": hed,
         "config": {"scribble": True, "safe": True},
     },
     "softedge_hedsafe": {
-        "class": HEDdetector,
+        "class": hed,
         "config": {"scribble": False, "safe": True},
     },
-    "depth_midas": {"class": MidasDetector, "config": {}},
-    "mlsd": {"class": MLSDdetector, "config": {}},
+    "depth_midas": {"class": midas, "config": {}},
+    "mlsd": {"class": mlsd, "config": {}},
     "open_pose": {
-        "class": OpenposeDetector,
+        "class": open_pose,
         "config": {"include_body": True, "include_hand": False, "include_face": False},
     },
     "open_pose_face": {
-        "class": OpenposeDetector,
+        "class": open_pose,
         "config": {"include_body": True, "include_hand": False, "include_face": True},
     },
     "open_pose_faceonly": {
-        "class": OpenposeDetector,
+        "class": open_pose,
         "config": {"include_body": False, "include_hand": False, "include_face": True},
     },
     "open_pose_full": {
-        "class": OpenposeDetector,
+        "class": open_pose,
         "config": {"include_body": True, "include_hand": True, "include_face": True},
     },
     "open_pose_hand": {
-        "class": OpenposeDetector,
+        "class": open_pose,
         "config": {"include_body": False, "include_hand": True, "include_face": False},
     },
     "scribble_pidinet": {
-        "class": PidiNetDetector,
+        "class": pidi,
         "config": {"safe": False, "scribble": True},
     },
     "softedge_pidinet": {
-        "class": PidiNetDetector,
+        "class": pidi,
         "config": {"safe": False, "scribble": False},
     },
     "scribble_pidsafe": {
-        "class": PidiNetDetector,
+        "class": pidi,
         "config": {"safe": True, "scribble": True},
     },
     "softedge_pidsafe": {
-        "class": PidiNetDetector,
+        "class": pidi,
         "config": {"safe": True, "scribble": False},
     },
-    "normal_bae": {"class": NormalBaeDetector, "config": {}},
-    "lineart_realistic": {"class": LineartDetector, "config": {"coarse": False}},
-    "lineart_coarse": {"class": LineartDetector, "config": {"coarse": True}},
-    "lineart_anime": {"class": LineartAnimeDetector, "config": {}},
-    "canny": {"class": CannyDetector, "config": {}},
-    "shuffle": {"class": ContentShuffleDetector, "config": {}},
-    "depth_zoe": {"class": ZoeDetector, "config": {}},
-    "depth_leres": {"class": LeresDetector, "config": {"boost": False}},
-    "depth_leres++": {"class": LeresDetector, "config": {"boost": True}},
-    "mediapipe_face": {"class": MediapipeFaceDetector, "config": {}},
+    "normal_bae": {"class": normal_bae, "config": {}},
+    "lineart_realistic": {"class": lineart, "config": {"coarse": False}},
+    "lineart_coarse": {"class": lineart, "config": {"coarse": True}},
+    "lineart_anime": {"class": lineart_anime, "config": {}},
+    "canny": {"class": canny, "config": {}},
+    "shuffle": {"class": content, "config": {}},
+    "depth_zoe": {"class": zoe, "config": {}},
+    "depth_leres": {"class": leres, "config": {"boost": False}},
+    "depth_leres++": {"class": leres, "config": {"boost": True}},
+    "mediapipe_face": {"class": face_detector, "config": {}},
+    "sam": {"class": sam, "config": {}},
 }
 
 
 @app.get("/hc")
 def hc():
-    return Response({"version": VERSION}, status=200, mimetype="application/json")
+    log.info({"version": VERSION})
+    return make_response(jsonify({"version": VERSION}), 200)
 
 
 @app.post("/image/<processor_id>")
 def process_image(processor_id: str):
     # Get the image from the request
     try:
-        image = Image.open(BytesIO(request.data)).convert("RGB").resize((1024, 1024))
+        image = Image.open(BytesIO(request.data)).convert("RGB").resize((512, 512))
     except Exception as e:
-        return Response({"error": str(e)}, status=400, mimetype="application/json")
+        return make_response(jsonify({"error": str(e)}), 400)
 
     # Check if the processor is allowed
     if processor_id not in processors:
-        return Response(
-            {"error": f"Processor {processor_id} not found"},
-            status=400,
-            mimetype="application/json",
+        return make_response(
+            jsonify({"error": f"Processor {processor_id} not found"}), 400
         )
 
     # Process the image
     processor = processors[processor_id]["class"]
     config = processors[processor_id]["config"]
     try:
-        result = processor(image, **config)
+        result = processor(image, output_type="pil", **config)
     except Exception as e:
-        return Response({"error": str(e)}, status=500, mimetype="application/json")
+        return make_response(jsonify({"error": str(e)}), 500)
 
     # Return the result as a lossless webp
     buffer = BytesIO()
     try:
         result.save(buffer, format="webp", lossless=True)
         buffer.seek(0)
-        return Response(buffer, status=200, mimetype="image/webp")
+        return send_file(buffer, mimetype="image/webp")
     except Exception as e:
-        return Response({"error": str(e)}, status=500, mimetype="application/json")
+        return make_response(jsonify({"error": str(e)}), 500)
 
 
 if __name__ == "__main__":

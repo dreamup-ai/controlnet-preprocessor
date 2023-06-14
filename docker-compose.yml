@@ -1,9 +1,13 @@
 services:
   controlnet-preprocessor:
-    image: shawndreamupai/controlnet-processor:latest
-    runtime: nvidia
+    image: shawndreamupai/controlnet-preprocessor:base
+    # runtime: nvidia
     build:
       context: ./
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.base
     ports:
-      - "5000:5000"
+      - "2222:2222"
+    environment:
+      - HOST=0.0.0.0
+    volumes:
+      - ./models:/models

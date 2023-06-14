@@ -1,2 +1,3 @@
-controlnet-aux==0.0.5
+git+https://github.com/patrickvonplaten/controlnet_aux#8958bb7
 Flask
+mediapipe
