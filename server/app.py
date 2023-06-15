@@ -29,7 +29,7 @@ log.info("Version: ", VERSION)
 
 # Load config from the environment
 host = os.environ.get("HOST", "localhost")
-port = os.environ.get("PORT", 2222)
+port = int(os.environ.get("PORT", 2222))
 annotator_path = os.environ.get("ANNOTATOR_PATH", "/models/lllyasviel/Annotators")
 sam_path = os.environ.get("SAM_PATH", "/models/ybelkada/segment-anything")
 sam_subfolder = os.environ.get("SAM_SUBFOLDER", "checkpoints")

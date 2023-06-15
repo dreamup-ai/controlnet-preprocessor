@@ -7,5 +7,18 @@ ARG ANNOTATOR_PATH
 ARG SAM_PATH
 
 # Copy the models into the image
-COPY $ANNOTATOR_PATH /models/lllyasviel/Annotators/
-COPY $SAM_PATH /models/ybelkada/segment-anything/checkpoints/
+COPY ${ANNOTATOR_PATH}/ControlNetHED.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/dpt_hybrid-midas-501f0c75.pt /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/mlsd_large_512_fp32.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/body_pose_model.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/hand_pose_model.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/facenet.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/table5_pidinet.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/scannet.pt /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/sk_model.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/sk_model2.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/netG.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/res101.pth /models/lllyasviel/Annotators/
+COPY ${ANNOTATOR_PATH}/latest_net_G.pth /models/lllyasviel/Annotators/
+
+COPY ${SAM_PATH}/sam_vit_h_4b8939.pth /models/ybelkada/segment-anything/checkpoints/
