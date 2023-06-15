@@ -136,7 +136,20 @@ def get_processors():
 def process_image(processor_id: str):
     # Get the image from the request
     try:
-        image = Image.open(BytesIO(request.data)).convert("RGB").resize((512, 512))
+        image = Image.open(BytesIO(request.data)).convert("RGB")
+        # Get the original width and height of the image
+        width, height = image.size
+
+        # Calculate the new dimensions while preserving aspect ratio
+        if width > height:
+            new_width = min(width, 1024)
+            new_height = int(height * new_width / width)
+        else:
+            new_height = min(height, 1024)
+            new_width = int(width * new_height / height)
+
+        # Resize the image
+        image = image.resize((new_width, new_height))
     except Exception as e:
         return make_response(jsonify({"error": str(e)}), 400)
 
@@ -165,4 +178,4 @@ def process_image(processor_id: str):
 
 
 if __name__ == "__main__":
-    serve(app, host=host, port=port)
+    serve(app, host=host, port=port, ipv6=True)

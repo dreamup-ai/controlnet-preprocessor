@@ -8,7 +8,7 @@ services:
     ports:
       - "1234:1234"
     environment:
-      - HOST=0.0.0.0
+      - HOST=*
       - PORT=1234
     # volumes:
     #   - ./models:/models
