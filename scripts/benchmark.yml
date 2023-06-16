@@ -1,0 +1,12 @@
+services:
+  controlnet-preprocessor:
+    image: preprocessor-benchmark:latest
+    network_mode: "host"
+    build:
+      context: ./
+      dockerfile: Dockerfile.benchmark
+    environment:
+      - BASE_URL=http://localhost:1234/
+    volumes:
+      - ./benchmark_outputs:/app/benchmark_outputs
+      - ../images:/app/images

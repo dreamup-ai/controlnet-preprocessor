@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+docker build -t preprocessor-benchmark:latest -f Dockerfile.benchmark .
