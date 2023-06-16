@@ -3,6 +3,7 @@ from PIL import Image
 from io import BytesIO
 import os
 import logging
+import time
 from waitress import serve
 from controlnet_aux import (
     HEDdetector,
@@ -134,6 +135,7 @@ def get_processors():
 
 @app.post("/image/<processor_id>")
 def process_image(processor_id: str):
+    request_start = time.perf_counter()
     # Get the image from the request
     try:
         image = Image.open(BytesIO(request.data)).convert("RGB")
@@ -162,17 +164,22 @@ def process_image(processor_id: str):
     # Process the image
     processor = processors[processor_id]["class"]
     config = processors[processor_id]["config"]
+    inference_start = time.perf_counter()
     try:
         result = processor(image, output_type="pil", **config)
     except Exception as e:
         return make_response(jsonify({"error": str(e)}), 500)
-
+    inference_end = time.perf_counter()
     # Return the result as a lossless webp
     buffer = BytesIO()
     try:
         result.save(buffer, format="webp", lossless=True)
         buffer.seek(0)
-        return send_file(buffer, mimetype="image/webp")
+        request_end = time.perf_counter()
+        response = make_response(send_file(buffer, mimetype="image/webp"))
+        response.headers["X-Request-Time"] = str(request_end - request_start)
+        response.headers["X-Inference-Time"] = str(inference_end - inference_start)
+        return response
     except Exception as e:
         return make_response(jsonify({"error": str(e)}), 500)
 
