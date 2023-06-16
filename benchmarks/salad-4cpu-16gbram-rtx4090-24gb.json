@@ -1,0 +1,1727 @@
+{
+  "scribble_hed": {
+    "data": [
+      {
+        "round_trip_time": 4.274461979046464,
+        "inference_time": 1.028067781000118,
+        "internal_request_time": 1.0621189739999863
+      },
+      {
+        "round_trip_time": 3.9346481543034315,
+        "inference_time": 0.7964077589999761,
+        "internal_request_time": 0.8102101560000392
+      },
+      {
+        "round_trip_time": 3.7841531755402684,
+        "inference_time": 0.7497424830000909,
+        "internal_request_time": 0.7618628820000595
+      },
+      {
+        "round_trip_time": 3.7079672245308757,
+        "inference_time": 0.6784146080001392,
+        "internal_request_time": 0.6907042060001913
+      },
+      {
+        "round_trip_time": 3.768923011608422,
+        "inference_time": 0.698219305000066,
+        "internal_request_time": 0.7113374030000159
+      },
+      {
+        "round_trip_time": 3.5882062148302794,
+        "inference_time": 0.7156683210000665,
+        "internal_request_time": 0.7272717210000792
+      },
+      {
+        "round_trip_time": 3.923290221951902,
+        "inference_time": 0.8168430240000362,
+        "internal_request_time": 0.8283957240000746
+      },
+      {
+        "round_trip_time": 3.7662385078147054,
+        "inference_time": 0.6910766409998814,
+        "internal_request_time": 0.7026044410001759
+      },
+      {
+        "round_trip_time": 3.8770587351173162,
+        "inference_time": 0.7476121429999694,
+        "internal_request_time": 0.7791612460000579
+      },
+      {
+        "round_trip_time": 3.686492166481912,
+        "inference_time": 0.6974171300000762,
+        "internal_request_time": 0.7307670320001307
+      }
+    ],
+    "round_trip": {
+      "avg": 3.8311439391225575,
+      "min": 3.5882062148302794,
+      "max": 4.274461979046464
+    },
+    "inference": {
+      "avg": 0.761946919500042,
+      "min": 0.6784146080001392,
+      "max": 1.028067781000118
+    },
+    "internal_request": {
+      "avg": 0.780443378500081,
+      "min": 0.6907042060001913,
+      "max": 1.0621189739999863
+    }
+  },
+  "softedge_hed": {
+    "data": [
+      {
+        "round_trip_time": 4.201640301384032,
+        "inference_time": 0.6870603299998947,
+        "internal_request_time": 0.7517989329999182
+      },
+      {
+        "round_trip_time": 4.163710894063115,
+        "inference_time": 0.8088263610000013,
+        "internal_request_time": 0.873316147999958
+      },
+      {
+        "round_trip_time": 4.373183254152536,
+        "inference_time": 0.6597518200001105,
+        "internal_request_time": 0.7745729240000401
+      },
+      {
+        "round_trip_time": 4.7809116104617715,
+        "inference_time": 1.1500020539999696,
+        "internal_request_time": 1.2314204650001557
+      },
+      {
+        "round_trip_time": 4.194100682623684,
+        "inference_time": 0.9028905210000175,
+        "internal_request_time": 0.9702345299999706
+      },
+      {
+        "round_trip_time": 4.396202511154115,
+        "inference_time": 0.7472994800000379,
+        "internal_request_time": 0.811308813000096
+      },
+      {
+        "round_trip_time": 4.511703317984939,
+        "inference_time": 0.8044965569999931,
+        "internal_request_time": 0.8685742860000119
+      },
+      {
+        "round_trip_time": 4.501436312682927,
+        "inference_time": 0.9137501950001479,
+        "internal_request_time": 1.0095429359998889
+      },
+      {
+        "round_trip_time": 4.103126175701618,
+        "inference_time": 0.7337163600000167,
+        "internal_request_time": 0.8013547000000472
+      },
+      {
+        "round_trip_time": 4.400141161866486,
+        "inference_time": 0.7496069300000272,
+        "internal_request_time": 0.8149723299998186
+      }
+    ],
+    "round_trip": {
+      "avg": 4.362615622207523,
+      "min": 4.103126175701618,
+      "max": 4.7809116104617715
+    },
+    "inference": {
+      "avg": 0.8157400608000216,
+      "min": 0.6597518200001105,
+      "max": 1.1500020539999696
+    },
+    "internal_request": {
+      "avg": 0.8907096064999905,
+      "min": 0.7517989329999182,
+      "max": 1.2314204650001557
+    }
+  },
+  "scribble_hedsafe": {
+    "data": [
+      {
+        "round_trip_time": 3.809851630590856,
+        "inference_time": 0.7277736529999856,
+        "internal_request_time": 0.7401079390001541
+      },
+      {
+        "round_trip_time": 3.9658079463988543,
+        "inference_time": 0.8860089680001693,
+        "internal_request_time": 0.8978904550001516
+      },
+      {
+        "round_trip_time": 3.5396938398480415,
+        "inference_time": 0.7841065830000389,
+        "internal_request_time": 0.7974298009999075
+      },
+      {
+        "round_trip_time": 3.8414691649377346,
+        "inference_time": 0.7300454070000342,
+        "internal_request_time": 0.7417191239999283
+      },
+      {
+        "round_trip_time": 3.681087190285325,
+        "inference_time": 0.7536465359999056,
+        "internal_request_time": 0.7652419379999174
+      },
+      {
+        "round_trip_time": 3.9237687764689326,
+        "inference_time": 0.8262958489999619,
+        "internal_request_time": 0.8383306509999784
+      },
+      {
+        "round_trip_time": 3.753329531289637,
+        "inference_time": 0.6802646990001904,
+        "internal_request_time": 0.6918354009999348
+      },
+      {
+        "round_trip_time": 4.024442406371236,
+        "inference_time": 0.850376623000102,
+        "internal_request_time": 0.8655320249999932
+      },
+      {
+        "round_trip_time": 3.7963999146595597,
+        "inference_time": 0.7542903200001092,
+        "internal_request_time": 0.7655562190000182
+      },
+      {
+        "round_trip_time": 3.7542640129104257,
+        "inference_time": 0.6777337490000264,
+        "internal_request_time": 0.6893023460002041
+      }
+    ],
+    "round_trip": {
+      "avg": 3.80901144137606,
+      "min": 3.5396938398480415,
+      "max": 4.024442406371236
+    },
+    "inference": {
+      "avg": 0.7670542387000523,
+      "min": 0.6777337490000264,
+      "max": 0.8860089680001693
+    },
+    "internal_request": {
+      "avg": 0.7792945899000188,
+      "min": 0.6893023460002041,
+      "max": 0.8978904550001516
+    }
+  },
+  "softedge_hedsafe": {
+    "data": [
+      {
+        "round_trip_time": 3.991527353413403,
+        "inference_time": 0.8749913639999249,
+        "internal_request_time": 0.8991831519999778
+      },
+      {
+        "round_trip_time": 3.264823970384896,
+        "inference_time": 0.5991778470001918,
+        "internal_request_time": 0.6175926359999266
+      },
+      {
+        "round_trip_time": 3.8052228027954698,
+        "inference_time": 0.775708442999985,
+        "internal_request_time": 0.7943438329998571
+      },
+      {
+        "round_trip_time": 3.395335012115538,
+        "inference_time": 0.6858879679998608,
+        "internal_request_time": 0.7043014559999392
+      },
+      {
+        "round_trip_time": 3.869062840938568,
+        "inference_time": 0.7157182479998028,
+        "internal_request_time": 0.7333699379998961
+      },
+      {
+        "round_trip_time": 4.00546055752784,
+        "inference_time": 0.8317021089999344,
+        "internal_request_time": 0.8663021009999738
+      },
+      {
+        "round_trip_time": 3.7866315077990294,
+        "inference_time": 0.7189402349999909,
+        "internal_request_time": 0.7357093310001801
+      },
+      {
+        "round_trip_time": 3.987621038220823,
+        "inference_time": 0.8721257400000013,
+        "internal_request_time": 0.9095000370000434
+      },
+      {
+        "round_trip_time": 3.423884260468185,
+        "inference_time": 0.6839522530001432,
+        "internal_request_time": 0.7028446509998503
+      },
+      {
+        "round_trip_time": 3.7528059286996722,
+        "inference_time": 0.7501404939998793,
+        "internal_request_time": 0.7775661939999736
+      }
+    ],
+    "round_trip": {
+      "avg": 3.7282375272363426,
+      "min": 3.264823970384896,
+      "max": 4.00546055752784
+    },
+    "inference": {
+      "avg": 0.7508344700999714,
+      "min": 0.5991778470001918,
+      "max": 0.8749913639999249
+    },
+    "internal_request": {
+      "avg": 0.7740713328999618,
+      "min": 0.6175926359999266,
+      "max": 0.9095000370000434
+    }
+  },
+  "depth_midas": {
+    "data": [
+      {
+        "round_trip_time": 5.734780554659665,
+        "inference_time": 2.442803880999918,
+        "internal_request_time": 2.496050279999963
+      },
+      {
+        "round_trip_time": 5.876672783866525,
+        "inference_time": 2.5479781250000997,
+        "internal_request_time": 2.602064423999991
+      },
+      {
+        "round_trip_time": 6.304668285883963,
+        "inference_time": 3.081800831999999,
+        "internal_request_time": 3.1341981310001756
+      },
+      {
+        "round_trip_time": 5.6266593569889665,
+        "inference_time": 2.37694825199992,
+        "internal_request_time": 2.431687950999958
+      },
+      {
+        "round_trip_time": 5.584593088366091,
+        "inference_time": 2.342264362000151,
+        "internal_request_time": 2.3956211619999976
+      },
+      {
+        "round_trip_time": 6.49590826779604,
+        "inference_time": 3.1308918439999616,
+        "internal_request_time": 3.205874343000005
+      },
+      {
+        "round_trip_time": 5.631953075528145,
+        "inference_time": 2.7198928120001256,
+        "internal_request_time": 2.7733278129999235
+      },
+      {
+        "round_trip_time": 5.328019363805652,
+        "inference_time": 2.2412619169999743,
+        "internal_request_time": 2.2953152180000416
+      },
+      {
+        "round_trip_time": 5.635374620556831,
+        "inference_time": 2.4360633680000774,
+        "internal_request_time": 2.4897049740000057
+      },
+      {
+        "round_trip_time": 6.216211919672787,
+        "inference_time": 2.973124233999897,
+        "internal_request_time": 3.0264030350001576
+      }
+    ],
+    "round_trip": {
+      "avg": 5.843484131712467,
+      "min": 5.328019363805652,
+      "max": 6.49590826779604
+    },
+    "inference": {
+      "avg": 2.629302962700012,
+      "min": 2.2412619169999743,
+      "max": 3.1308918439999616
+    },
+    "internal_request": {
+      "avg": 2.685024733100022,
+      "min": 2.2953152180000416,
+      "max": 3.205874343000005
+    }
+  },
+  "mlsd": {
+    "data": [
+      {
+        "round_trip_time": 3.6070853266865015,
+        "inference_time": 0.5388197059999129,
+        "internal_request_time": 0.5469165070001054
+      },
+      {
+        "round_trip_time": 3.4841766227036715,
+        "inference_time": 0.5247080419999293,
+        "internal_request_time": 0.5340915429999313
+      },
+      {
+        "round_trip_time": 3.584561596624553,
+        "inference_time": 0.3780206310000267,
+        "internal_request_time": 0.385857931000146
+      },
+      {
+        "round_trip_time": 3.1696904618293047,
+        "inference_time": 0.46750129900010506,
+        "internal_request_time": 0.47572369900012745
+      },
+      {
+        "round_trip_time": 2.870337943546474,
+        "inference_time": 0.42388379900012296,
+        "internal_request_time": 0.43421949899993706
+      },
+      {
+        "round_trip_time": 3.7898400351405144,
+        "inference_time": 0.5885369969998919,
+        "internal_request_time": 0.6019550969999727
+      },
+      {
+        "round_trip_time": 3.2740881890058517,
+        "inference_time": 0.6679037960000187,
+        "internal_request_time": 0.6794907959999819
+      },
+      {
+        "round_trip_time": 2.970223410986364,
+        "inference_time": 0.4006022969999776,
+        "internal_request_time": 0.4287690969999858
+      },
+      {
+        "round_trip_time": 3.540305443108082,
+        "inference_time": 0.4206162380000933,
+        "internal_request_time": 0.4482669330000135
+      },
+      {
+        "round_trip_time": 3.343112437054515,
+        "inference_time": 0.37081064499989225,
+        "internal_request_time": 0.39201824200017654
+      }
+    ],
+    "round_trip": {
+      "avg": 3.3633421466685833,
+      "min": 2.870337943546474,
+      "max": 3.7898400351405144
+    },
+    "inference": {
+      "avg": 0.4781403449999971,
+      "min": 0.37081064499989225,
+      "max": 0.6679037960000187
+    },
+    "internal_request": {
+      "avg": 0.4927309344000378,
+      "min": 0.385857931000146,
+      "max": 0.6794907959999819
+    }
+  },
+  "openpose": {
+    "data": [
+      {
+        "round_trip_time": 3.86671734880656,
+        "inference_time": 0.6480016599998635,
+        "internal_request_time": 0.6559847599999102
+      },
+      {
+        "round_trip_time": 3.6922416035085917,
+        "inference_time": 0.6749941579998904,
+        "internal_request_time": 0.6849372579999908
+      },
+      {
+        "round_trip_time": 3.6871206033974886,
+        "inference_time": 0.6885346030001074,
+        "internal_request_time": 0.6967157019998922
+      },
+      {
+        "round_trip_time": 3.6521380953490734,
+        "inference_time": 0.6699490080000032,
+        "internal_request_time": 0.6783894080001573
+      },
+      {
+        "round_trip_time": 3.65701087936759,
+        "inference_time": 0.6468070079999961,
+        "internal_request_time": 0.6658377080000264
+      },
+      {
+        "round_trip_time": 3.8517136117443442,
+        "inference_time": 0.6549547939998774,
+        "internal_request_time": 0.6646560940000654
+      },
+      {
+        "round_trip_time": 3.6173549173399806,
+        "inference_time": 0.6741417949999686,
+        "internal_request_time": 0.6819153950000327
+      },
+      {
+        "round_trip_time": 3.7638469208031893,
+        "inference_time": 0.6969708260000971,
+        "internal_request_time": 0.7047567270001309
+      },
+      {
+        "round_trip_time": 3.679932987317443,
+        "inference_time": 0.7099921279998398,
+        "internal_request_time": 0.7186437289999503
+      },
+      {
+        "round_trip_time": 3.684957955032587,
+        "inference_time": 0.6879427359999681,
+        "internal_request_time": 0.696004136000056
+      }
+    ],
+    "round_trip": {
+      "avg": 3.7153034922666848,
+      "min": 3.6173549173399806,
+      "max": 3.86671734880656
+    },
+    "inference": {
+      "avg": 0.6752288715999611,
+      "min": 0.6468070079999961,
+      "max": 0.7099921279998398
+    },
+    "internal_request": {
+      "avg": 0.6847840917000212,
+      "min": 0.6559847599999102,
+      "max": 0.7186437289999503
+    }
+  },
+  "openpose_face": {
+    "data": [
+      {
+        "round_trip_time": 3.682785320095718,
+        "inference_time": 0.7074299380001321,
+        "internal_request_time": 0.715141438000046
+      },
+      {
+        "round_trip_time": 3.687330755405128,
+        "inference_time": 0.6493102029999136,
+        "internal_request_time": 0.6578860030001579
+      },
+      {
+        "round_trip_time": 3.7192902360111475,
+        "inference_time": 0.6602921030000743,
+        "internal_request_time": 0.6867611029999807
+      },
+      {
+        "round_trip_time": 3.7550986893475056,
+        "inference_time": 0.6705690860001141,
+        "internal_request_time": 0.6795587849999265
+      },
+      {
+        "round_trip_time": 3.4860881892964244,
+        "inference_time": 0.6553744860000279,
+        "internal_request_time": 0.6630050850001226
+      },
+      {
+        "round_trip_time": 3.3744018552824855,
+        "inference_time": 0.6608612859999994,
+        "internal_request_time": 0.6702333860000635
+      },
+      {
+        "round_trip_time": 3.746248354203999,
+        "inference_time": 0.6829145859999244,
+        "internal_request_time": 0.6904881860000387
+      },
+      {
+        "round_trip_time": 3.8298549139872193,
+        "inference_time": 0.6734030860000075,
+        "internal_request_time": 0.6818759860000227
+      },
+      {
+        "round_trip_time": 3.5853466875851154,
+        "inference_time": 0.6762309409998579,
+        "internal_request_time": 0.6848974399999861
+      },
+      {
+        "round_trip_time": 3.788704479113221,
+        "inference_time": 0.6832748399999673,
+        "internal_request_time": 0.6928010389999599
+      }
+    ],
+    "round_trip": {
+      "avg": 3.665514948032796,
+      "min": 3.3744018552824855,
+      "max": 3.8298549139872193
+    },
+    "inference": {
+      "avg": 0.6719660555000019,
+      "min": 0.6493102029999136,
+      "max": 0.7074299380001321
+    },
+    "internal_request": {
+      "avg": 0.6822648451000305,
+      "min": 0.6578860030001579,
+      "max": 0.715141438000046
+    }
+  },
+  "openpose_faceonly": {
+    "data": [
+      {
+        "round_trip_time": 3.7890361566096544,
+        "inference_time": 0.6787205779999113,
+        "internal_request_time": 0.6864507780001077
+      },
+      {
+        "round_trip_time": 3.8406196804717183,
+        "inference_time": 0.7164219769999818,
+        "internal_request_time": 0.7382625759998973
+      },
+      {
+        "round_trip_time": 3.676241992972791,
+        "inference_time": 0.6670609919999606,
+        "internal_request_time": 0.6745515919999434
+      },
+      {
+        "round_trip_time": 3.74641352891922,
+        "inference_time": 0.6521177920001264,
+        "internal_request_time": 0.6595600919999924
+      },
+      {
+        "round_trip_time": 3.6873947316780686,
+        "inference_time": 0.6972090859999298,
+        "internal_request_time": 0.706048686000031
+      },
+      {
+        "round_trip_time": 3.688878239132464,
+        "inference_time": 0.6720296869998492,
+        "internal_request_time": 0.680000586999995
+      },
+      {
+        "round_trip_time": 3.684664411470294,
+        "inference_time": 0.6650686619998396,
+        "internal_request_time": 0.6738353620000908
+      },
+      {
+        "round_trip_time": 3.68892321549356,
+        "inference_time": 0.6443772640000134,
+        "internal_request_time": 0.672804362000079
+      },
+      {
+        "round_trip_time": 3.373594416305423,
+        "inference_time": 0.6764049640000849,
+        "internal_request_time": 0.6862379630001669
+      },
+      {
+        "round_trip_time": 3.4839881910011172,
+        "inference_time": 0.6775224699999853,
+        "internal_request_time": 0.7067085690000567
+      }
+    ],
+    "round_trip": {
+      "avg": 3.665975456405431,
+      "min": 3.373594416305423,
+      "max": 3.8406196804717183
+    },
+    "inference": {
+      "avg": 0.6746933471999682,
+      "min": 0.6443772640000134,
+      "max": 0.7164219769999818
+    },
+    "internal_request": {
+      "avg": 0.688446056700036,
+      "min": 0.6595600919999924,
+      "max": 0.7382625759998973
+    }
+  },
+  "openpose_full": {
+    "data": [
+      {
+        "round_trip_time": 3.686035193502903,
+        "inference_time": 0.6627285710001161,
+        "internal_request_time": 0.6708817700000509
+      },
+      {
+        "round_trip_time": 3.7450166260823607,
+        "inference_time": 0.6740448020000258,
+        "internal_request_time": 0.6822198019999632
+      },
+      {
+        "round_trip_time": 3.6238890951499343,
+        "inference_time": 0.6508940030000758,
+        "internal_request_time": 0.6789925030000177
+      },
+      {
+        "round_trip_time": 3.728188343346119,
+        "inference_time": 0.6542719940000552,
+        "internal_request_time": 0.6618866940000316
+      },
+      {
+        "round_trip_time": 3.6464052125811577,
+        "inference_time": 0.6454664949999369,
+        "internal_request_time": 0.6528703949998089
+      },
+      {
+        "round_trip_time": 3.8045197753235698,
+        "inference_time": 0.6747215939999478,
+        "internal_request_time": 0.6836069930000122
+      },
+      {
+        "round_trip_time": 3.774480382911861,
+        "inference_time": 0.6901077929999246,
+        "internal_request_time": 0.7179114929999741
+      },
+      {
+        "round_trip_time": 3.5828017964959145,
+        "inference_time": 0.6596108639998874,
+        "internal_request_time": 0.6672324639998806
+      },
+      {
+        "round_trip_time": 3.8952711382880807,
+        "inference_time": 0.7283206600000085,
+        "internal_request_time": 0.7356843600000502
+      },
+      {
+        "round_trip_time": 3.787781032733619,
+        "inference_time": 0.658542197000088,
+        "internal_request_time": 0.666292995999811
+      }
+    ],
+    "round_trip": {
+      "avg": 3.727438859641552,
+      "min": 3.5828017964959145,
+      "max": 3.8952711382880807
+    },
+    "inference": {
+      "avg": 0.6698708973000066,
+      "min": 0.6454664949999369,
+      "max": 0.7283206600000085
+    },
+    "internal_request": {
+      "avg": 0.6817579469999601,
+      "min": 0.6528703949998089,
+      "max": 0.7356843600000502
+    }
+  },
+  "openpose_hand": {
+    "data": [
+      {
+        "round_trip_time": 3.703750254586339,
+        "inference_time": 0.6359403009998914,
+        "internal_request_time": 0.6437054999998963
+      },
+      {
+        "round_trip_time": 3.732333168387413,
+        "inference_time": 0.6927340970000841,
+        "internal_request_time": 0.7006003960000271
+      },
+      {
+        "round_trip_time": 3.624675859697163,
+        "inference_time": 0.6726228160000574,
+        "internal_request_time": 0.7004854120000346
+      },
+      {
+        "round_trip_time": 3.695163848809898,
+        "inference_time": 0.6706727160001265,
+        "internal_request_time": 0.6804118150000704
+      },
+      {
+        "round_trip_time": 3.6794085456058383,
+        "inference_time": 0.6555344839998725,
+        "internal_request_time": 0.6631901840000864
+      },
+      {
+        "round_trip_time": 3.8627104619517922,
+        "inference_time": 0.7077432829998997,
+        "internal_request_time": 0.716990381999949
+      },
+      {
+        "round_trip_time": 3.558978592045605,
+        "inference_time": 0.6544773880000321,
+        "internal_request_time": 0.663667488000101
+      },
+      {
+        "round_trip_time": 3.612098004668951,
+        "inference_time": 0.6374399880000965,
+        "internal_request_time": 0.6449778880000849
+      },
+      {
+        "round_trip_time": 3.6985740093514323,
+        "inference_time": 0.6593718859999171,
+        "internal_request_time": 0.6667564859999402
+      },
+      {
+        "round_trip_time": 3.697928112000227,
+        "inference_time": 0.6686506859998644,
+        "internal_request_time": 0.6762686849999682
+      }
+    ],
+    "round_trip": {
+      "avg": 3.6865620857104657,
+      "min": 3.558978592045605,
+      "max": 3.8627104619517922
+    },
+    "inference": {
+      "avg": 0.6655187644999842,
+      "min": 0.6359403009998914,
+      "max": 0.7077432829998997
+    },
+    "internal_request": {
+      "avg": 0.6757054236000158,
+      "min": 0.6437054999998963,
+      "max": 0.716990381999949
+    }
+  },
+  "scribble_pidinet": {
+    "data": [
+      {
+        "round_trip_time": 4.612485482357442,
+        "inference_time": 1.6586167680000017,
+        "internal_request_time": 1.670285068000112
+      },
+      {
+        "round_trip_time": 5.013097043149173,
+        "inference_time": 1.9393322630000966,
+        "internal_request_time": 1.950986662999867
+      },
+      {
+        "round_trip_time": 4.596664317883551,
+        "inference_time": 1.6639521659999446,
+        "internal_request_time": 1.6762932659999024
+      },
+      {
+        "round_trip_time": 4.601365709677339,
+        "inference_time": 1.635425567000084,
+        "internal_request_time": 1.6476965669999117
+      },
+      {
+        "round_trip_time": 4.939256723038852,
+        "inference_time": 1.616870168999867,
+        "internal_request_time": 1.6284124680000787
+      },
+      {
+        "round_trip_time": 4.660593263804913,
+        "inference_time": 1.709206371999926,
+        "internal_request_time": 1.7204782720000367
+      },
+      {
+        "round_trip_time": 4.139210784807801,
+        "inference_time": 1.4310947769999984,
+        "internal_request_time": 1.4446074769998631
+      },
+      {
+        "round_trip_time": 4.554327482357621,
+        "inference_time": 1.5714294859999427,
+        "internal_request_time": 1.6049546859999282
+      },
+      {
+        "round_trip_time": 4.559455118142068,
+        "inference_time": 1.488495187000126,
+        "internal_request_time": 1.5090786870000557
+      },
+      {
+        "round_trip_time": 4.613385810516775,
+        "inference_time": 1.5991750989999218,
+        "internal_request_time": 1.6115938989998995
+      }
+    ],
+    "round_trip": {
+      "avg": 4.628984173573554,
+      "min": 4.139210784807801,
+      "max": 5.013097043149173
+    },
+    "inference": {
+      "avg": 1.6313597853999908,
+      "min": 1.4310947769999984,
+      "max": 1.9393322630000966
+    },
+    "internal_request": {
+      "avg": 1.6464387052999654,
+      "min": 1.4446074769998631,
+      "max": 1.950986662999867
+    }
+  },
+  "softedge_pidinet": {
+    "data": [
+      {
+        "round_trip_time": 5.221070460043848,
+        "inference_time": 1.5913702749999175,
+        "internal_request_time": 1.6613975769998888
+      },
+      {
+        "round_trip_time": 5.629056393168867,
+        "inference_time": 2.09779891900007,
+        "internal_request_time": 2.1680797200001507
+      },
+      {
+        "round_trip_time": 5.117759260348976,
+        "inference_time": 1.6242137179999645,
+        "internal_request_time": 1.6954359189999195
+      },
+      {
+        "round_trip_time": 5.228764568455517,
+        "inference_time": 1.6991705130001264,
+        "internal_request_time": 1.770429212999943
+      },
+      {
+        "round_trip_time": 4.910428384318948,
+        "inference_time": 1.3971767970001565,
+        "internal_request_time": 1.4810838969999622
+      },
+      {
+        "round_trip_time": 5.019587637856603,
+        "inference_time": 1.5660297900001297,
+        "internal_request_time": 1.6378344889999426
+      },
+      {
+        "round_trip_time": 5.119164614006877,
+        "inference_time": 1.6383887889999187,
+        "internal_request_time": 1.709578988999965
+      },
+      {
+        "round_trip_time": 4.82693175598979,
+        "inference_time": 1.5677457470001173,
+        "internal_request_time": 1.641183448999982
+      },
+      {
+        "round_trip_time": 4.797141627408564,
+        "inference_time": 1.3177518479999435,
+        "internal_request_time": 1.3876549510000586
+      },
+      {
+        "round_trip_time": 4.922090059146285,
+        "inference_time": 1.4376723540001421,
+        "internal_request_time": 1.5079062569998314
+      }
+    ],
+    "round_trip": {
+      "avg": 5.079199476074427,
+      "min": 4.797141627408564,
+      "max": 5.629056393168867
+    },
+    "inference": {
+      "avg": 1.5937318750000486,
+      "min": 1.3177518479999435,
+      "max": 2.09779891900007
+    },
+    "internal_request": {
+      "avg": 1.6660584460999643,
+      "min": 1.3876549510000586,
+      "max": 2.1680797200001507
+    }
+  },
+  "scribble_pidsafe": {
+    "data": [
+      {
+        "round_trip_time": 4.6005620416253805,
+        "inference_time": 1.6847259169999234,
+        "internal_request_time": 1.6960290170000007
+      },
+      {
+        "round_trip_time": 4.496106695383787,
+        "inference_time": 1.4978493150001668,
+        "internal_request_time": 1.5091089150000698
+      },
+      {
+        "round_trip_time": 4.7230672696605325,
+        "inference_time": 1.5625545050002074,
+        "internal_request_time": 1.5737329050000426
+      },
+      {
+        "round_trip_time": 4.611473615281284,
+        "inference_time": 1.5971775990001333,
+        "internal_request_time": 1.6086409990000448
+      },
+      {
+        "round_trip_time": 4.502577455714345,
+        "inference_time": 1.5132576930000141,
+        "internal_request_time": 1.5246310929999254
+      },
+      {
+        "round_trip_time": 4.606814476661384,
+        "inference_time": 1.6532270379998408,
+        "internal_request_time": 1.6643866379999963
+      },
+      {
+        "round_trip_time": 4.473367782309651,
+        "inference_time": 1.4791652330000034,
+        "internal_request_time": 1.4904158330000428
+      },
+      {
+        "round_trip_time": 4.616780884563923,
+        "inference_time": 1.6993549199999052,
+        "internal_request_time": 1.7105081209999753
+      },
+      {
+        "round_trip_time": 4.707874961197376,
+        "inference_time": 1.7223285200000191,
+        "internal_request_time": 1.733775919999971
+      },
+      {
+        "round_trip_time": 4.228503433987498,
+        "inference_time": 1.4013416499999494,
+        "internal_request_time": 1.4130846499999734
+      }
+    ],
+    "round_trip": {
+      "avg": 4.556712861638516,
+      "min": 4.228503433987498,
+      "max": 4.7230672696605325
+    },
+    "inference": {
+      "avg": 1.5810982390000163,
+      "min": 1.4013416499999494,
+      "max": 1.7223285200000191
+    },
+    "internal_request": {
+      "avg": 1.5924314091000042,
+      "min": 1.4130846499999734,
+      "max": 1.733775919999971
+    }
+  },
+  "softedge_pidsafe": {
+    "data": [
+      {
+        "round_trip_time": 4.503105528652668,
+        "inference_time": 1.6250193790001504,
+        "internal_request_time": 1.6426142799998615
+      },
+      {
+        "round_trip_time": 4.605814623646438,
+        "inference_time": 1.58550991900006,
+        "internal_request_time": 1.606871819999924
+      },
+      {
+        "round_trip_time": 4.6268364088609815,
+        "inference_time": 1.6187275929999032,
+        "internal_request_time": 1.6360439929999302
+      },
+      {
+        "round_trip_time": 4.895802980288863,
+        "inference_time": 1.6293573919999744,
+        "internal_request_time": 1.64603549200001
+      },
+      {
+        "round_trip_time": 4.607525954954326,
+        "inference_time": 1.5799500680000165,
+        "internal_request_time": 1.5968526679998831
+      },
+      {
+        "round_trip_time": 4.53459413535893,
+        "inference_time": 1.5696227689998068,
+        "internal_request_time": 1.586819068000068
+      },
+      {
+        "round_trip_time": 4.8894504606723785,
+        "inference_time": 1.6472151390000818,
+        "internal_request_time": 1.6639510419997805
+      },
+      {
+        "round_trip_time": 4.605211281217635,
+        "inference_time": 1.5456094969999867,
+        "internal_request_time": 1.5618339979998836
+      },
+      {
+        "round_trip_time": 4.504210989922285,
+        "inference_time": 1.4923605609999413,
+        "internal_request_time": 1.5090679620000174
+      },
+      {
+        "round_trip_time": 4.715963480062783,
+        "inference_time": 1.7655589510000027,
+        "internal_request_time": 1.7833822520001377
+      }
+    ],
+    "round_trip": {
+      "avg": 4.648851584363729,
+      "min": 4.503105528652668,
+      "max": 4.895802980288863
+    },
+    "inference": {
+      "avg": 1.6058931267999923,
+      "min": 1.4923605609999413,
+      "max": 1.7655589510000027
+    },
+    "internal_request": {
+      "avg": 1.6233472574999497,
+      "min": 1.5090679620000174,
+      "max": 1.7833822520001377
+    }
+  },
+  "normal_bae": {
+    "data": [
+      {
+        "round_trip_time": 6.585553594864905,
+        "inference_time": 2.878837977999865,
+        "internal_request_time": 2.97927907899998
+      },
+      {
+        "round_trip_time": 6.926384032703936,
+        "inference_time": 3.1204495410001982,
+        "internal_request_time": 3.2214961429999676
+      },
+      {
+        "round_trip_time": 7.371376628056169,
+        "inference_time": 3.6128551090000656,
+        "internal_request_time": 3.7431498089999877
+      },
+      {
+        "round_trip_time": 7.2766863238066435,
+        "inference_time": 3.5694861889999174,
+        "internal_request_time": 3.684388488999957
+      },
+      {
+        "round_trip_time": 6.759536569006741,
+        "inference_time": 2.874712785999918,
+        "internal_request_time": 2.9737594789999093
+      },
+      {
+        "round_trip_time": 6.770154730416834,
+        "inference_time": 3.0009196819999033,
+        "internal_request_time": 3.1026093779998973
+      },
+      {
+        "round_trip_time": 6.847550363279879,
+        "inference_time": 2.899735865000139,
+        "internal_request_time": 3.0004507649998686
+      },
+      {
+        "round_trip_time": 6.6772512551397085,
+        "inference_time": 2.7466624720000254,
+        "internal_request_time": 2.84627586900001
+      },
+      {
+        "round_trip_time": 6.675123739056289,
+        "inference_time": 2.8865627280001718,
+        "internal_request_time": 2.9876964250001947
+      },
+      {
+        "round_trip_time": 6.329609372653067,
+        "inference_time": 2.4940506810000898,
+        "internal_request_time": 2.598312880999856
+      }
+    ],
+    "round_trip": {
+      "avg": 6.821922660898418,
+      "min": 6.329609372653067,
+      "max": 7.371376628056169
+    },
+    "inference": {
+      "avg": 3.0084273031000293,
+      "min": 2.4940506810000898,
+      "max": 3.6128551090000656
+    },
+    "internal_request": {
+      "avg": 3.1137418316999628,
+      "min": 2.598312880999856,
+      "max": 3.7431498089999877
+    }
+  },
+  "lineart_realistic": {
+    "data": [
+      {
+        "round_trip_time": 4.506422734819353,
+        "inference_time": 0.8411540950000926,
+        "internal_request_time": 0.8836868949999825
+      },
+      {
+        "round_trip_time": 4.787738257087767,
+        "inference_time": 1.0501608940001006,
+        "internal_request_time": 1.1139438940001583
+      },
+      {
+        "round_trip_time": 4.706544847227633,
+        "inference_time": 0.9452795960000913,
+        "internal_request_time": 1.0409736960000373
+      },
+      {
+        "round_trip_time": 4.948992733843625,
+        "inference_time": 1.4419650039999397,
+        "internal_request_time": 1.4841176039999482
+      },
+      {
+        "round_trip_time": 4.659921856597066,
+        "inference_time": 0.9638897059999181,
+        "internal_request_time": 1.024042905999977
+      },
+      {
+        "round_trip_time": 4.72783076018095,
+        "inference_time": 0.9520673510000961,
+        "internal_request_time": 1.0207268560000102
+      },
+      {
+        "round_trip_time": 4.3907473254948854,
+        "inference_time": 0.9276339509997342,
+        "internal_request_time": 0.9873083540001062
+      },
+      {
+        "round_trip_time": 4.730351344682276,
+        "inference_time": 1.0893776020002406,
+        "internal_request_time": 1.1622318019999511
+      },
+      {
+        "round_trip_time": 5.116306739859283,
+        "inference_time": 1.4082499050000479,
+        "internal_request_time": 1.463729605000026
+      },
+      {
+        "round_trip_time": 5.185203484259546,
+        "inference_time": 1.7043184140002268,
+        "internal_request_time": 1.797962715000267
+      }
+    ],
+    "round_trip": {
+      "avg": 4.776006008405238,
+      "min": 4.3907473254948854,
+      "max": 5.185203484259546
+    },
+    "inference": {
+      "avg": 1.1324096518000488,
+      "min": 0.8411540950000926,
+      "max": 1.7043184140002268
+    },
+    "internal_request": {
+      "avg": 1.1978724327000463,
+      "min": 0.8836868949999825,
+      "max": 1.797962715000267
+    }
+  },
+  "lineart_coarse": {
+    "data": [
+      {
+        "round_trip_time": 12.017447493039072,
+        "inference_time": 1.0099322740002208,
+        "internal_request_time": 1.1086192919997302
+      },
+      {
+        "round_trip_time": 5.238885087892413,
+        "inference_time": 1.4161847450000096,
+        "internal_request_time": 1.5277395650000472
+      },
+      {
+        "round_trip_time": 4.6037061884999275,
+        "inference_time": 0.8570967339996969,
+        "internal_request_time": 0.9266118370001095
+      },
+      {
+        "round_trip_time": 5.221715431660414,
+        "inference_time": 1.5504841679999117,
+        "internal_request_time": 1.623984672000006
+      },
+      {
+        "round_trip_time": 5.0077048894017935,
+        "inference_time": 1.1832175610002196,
+        "internal_request_time": 1.248703764000311
+      },
+      {
+        "round_trip_time": 4.745422190055251,
+        "inference_time": 1.0770161009995718,
+        "internal_request_time": 1.1763327089997802
+      },
+      {
+        "round_trip_time": 4.773459414020181,
+        "inference_time": 0.96061108899994,
+        "internal_request_time": 1.0604404989999239
+      },
+      {
+        "round_trip_time": 4.713167509995401,
+        "inference_time": 1.024924120000378,
+        "internal_request_time": 1.0997088300000541
+      },
+      {
+        "round_trip_time": 5.030641300603747,
+        "inference_time": 1.3297419820000869,
+        "internal_request_time": 1.429971696999928
+      },
+      {
+        "round_trip_time": 4.90277901571244,
+        "inference_time": 1.1524430709996523,
+        "internal_request_time": 1.2578471870001522
+      }
+    ],
+    "round_trip": {
+      "avg": 5.625492852088064,
+      "min": 4.6037061884999275,
+      "max": 12.017447493039072
+    },
+    "inference": {
+      "avg": 1.1561651844999687,
+      "min": 0.8570967339996969,
+      "max": 1.5504841679999117
+    },
+    "internal_request": {
+      "avg": 1.2459960052000043,
+      "min": 0.9266118370001095,
+      "max": 1.623984672000006
+    }
+  },
+  "lineart_anime": {
+    "data": [
+      {
+        "round_trip_time": 3.7975121680647135,
+        "inference_time": 0.3539746050000758,
+        "internal_request_time": 0.40625440699977844
+      },
+      {
+        "round_trip_time": 3.8880649134516716,
+        "inference_time": 0.28933260400026484,
+        "internal_request_time": 0.34259760499980985
+      },
+      {
+        "round_trip_time": 3.717479456216097,
+        "inference_time": 0.2906991630002267,
+        "internal_request_time": 0.3550758540000061
+      },
+      {
+        "round_trip_time": 3.753743396140635,
+        "inference_time": 0.25710476700032814,
+        "internal_request_time": 0.31047085999989577
+      },
+      {
+        "round_trip_time": 3.7855952996760607,
+        "inference_time": 0.26852641499999663,
+        "internal_request_time": 0.3209099989999231
+      },
+      {
+        "round_trip_time": 3.795522518455982,
+        "inference_time": 0.2831155110002328,
+        "internal_request_time": 0.34217249199991784
+      },
+      {
+        "round_trip_time": 3.672251343727112,
+        "inference_time": 0.25095566499976485,
+        "internal_request_time": 0.3046805580002001
+      },
+      {
+        "round_trip_time": 4.006249594502151,
+        "inference_time": 0.3569391500000165,
+        "internal_request_time": 0.424746740000046
+      },
+      {
+        "round_trip_time": 3.5775647405534983,
+        "inference_time": 0.2804995599999529,
+        "internal_request_time": 0.3423960520003675
+      },
+      {
+        "round_trip_time": 3.8918978925794363,
+        "inference_time": 0.2496158369999648,
+        "internal_request_time": 0.30252506500028176
+      }
+    ],
+    "round_trip": {
+      "avg": 3.7885881323367356,
+      "min": 3.5775647405534983,
+      "max": 4.006249594502151
+    },
+    "inference": {
+      "avg": 0.2880763277000824,
+      "min": 0.2496158369999648,
+      "max": 0.3569391500000165
+    },
+    "internal_request": {
+      "avg": 0.3451829632000226,
+      "min": 0.30252506500028176,
+      "max": 0.424746740000046
+    }
+  },
+  "canny": {
+    "data": [
+      {
+        "round_trip_time": 2.972757453098893,
+        "inference_time": 0.005411100000401348,
+        "internal_request_time": 0.018805299999712588
+      },
+      {
+        "round_trip_time": 3.074071118608117,
+        "inference_time": 0.002762499999789725,
+        "internal_request_time": 0.016187197999897762
+      },
+      {
+        "round_trip_time": 3.0650583365932107,
+        "inference_time": 0.0021367999997892184,
+        "internal_request_time": 0.014985098000124708
+      },
+      {
+        "round_trip_time": 3.0772036546841264,
+        "inference_time": 0.0018602999998620362,
+        "internal_request_time": 0.014705900000080874
+      },
+      {
+        "round_trip_time": 2.8642375273630023,
+        "inference_time": 0.0017100999998547195,
+        "internal_request_time": 0.014467399999830377
+      },
+      {
+        "round_trip_time": 2.5636497661471367,
+        "inference_time": 0.0017189000000144006,
+        "internal_request_time": 0.01833149999993111
+      },
+      {
+        "round_trip_time": 2.9803437208756804,
+        "inference_time": 0.0016664999998283747,
+        "internal_request_time": 0.01749019999988377
+      },
+      {
+        "round_trip_time": 3.058420516550541,
+        "inference_time": 0.00185099899999841,
+        "internal_request_time": 0.014984098999775597
+      },
+      {
+        "round_trip_time": 2.9695724649354815,
+        "inference_time": 0.0016987000003609865,
+        "internal_request_time": 0.01501879999977973
+      },
+      {
+        "round_trip_time": 3.0727120703086257,
+        "inference_time": 0.0017152990003523882,
+        "internal_request_time": 0.015507197999795608
+      }
+    ],
+    "round_trip": {
+      "avg": 2.9698026629164813,
+      "min": 2.5636497661471367,
+      "max": 3.0772036546841264
+    },
+    "inference": {
+      "avg": 0.0022531198000251607,
+      "min": 0.0016664999998283747,
+      "max": 0.005411100000401348
+    },
+    "internal_request": {
+      "avg": 0.016048269299881214,
+      "min": 0.014467399999830377,
+      "max": 0.018805299999712588
+    }
+  },
+  "shuffle": {
+    "data": [
+      {
+        "round_trip_time": 3.9756095819175243,
+        "inference_time": 0.005748900000071444,
+        "internal_request_time": 0.1537722810003288
+      },
+      {
+        "round_trip_time": 4.005390541628003,
+        "inference_time": 0.005736499000249751,
+        "internal_request_time": 0.16981987799999843
+      },
+      {
+        "round_trip_time": 4.03082141559571,
+        "inference_time": 0.005704199000319932,
+        "internal_request_time": 0.1453264809997563
+      },
+      {
+        "round_trip_time": 4.004116212017834,
+        "inference_time": 0.00534119899975849,
+        "internal_request_time": 0.16918018300020776
+      },
+      {
+        "round_trip_time": 3.9960003355517983,
+        "inference_time": 0.005723198999930901,
+        "internal_request_time": 0.15534228400019856
+      },
+      {
+        "round_trip_time": 4.255959124304354,
+        "inference_time": 0.005358099999739352,
+        "internal_request_time": 0.15325758300014058
+      },
+      {
+        "round_trip_time": 4.099476647563279,
+        "inference_time": 0.005521800000224175,
+        "internal_request_time": 0.16432678099999976
+      },
+      {
+        "round_trip_time": 4.095633332617581,
+        "inference_time": 0.00539739899977576,
+        "internal_request_time": 0.17419176900011735
+      },
+      {
+        "round_trip_time": 4.137227444909513,
+        "inference_time": 0.005878998999833129,
+        "internal_request_time": 0.15111417200023425
+      },
+      {
+        "round_trip_time": 4.257063041441143,
+        "inference_time": 0.005517398999927536,
+        "internal_request_time": 0.15394917899993743
+      }
+    ],
+    "round_trip": {
+      "avg": 4.085729767754674,
+      "min": 3.9756095819175243,
+      "max": 4.257063041441143
+    },
+    "inference": {
+      "avg": 0.005592769299983047,
+      "min": 0.00534119899975849,
+      "max": 0.005878998999833129
+    },
+    "internal_request": {
+      "avg": 0.15902805910009193,
+      "min": 0.1453264809997563,
+      "max": 0.17419176900011735
+    }
+  },
+  "depth_leres": {
+    "data": [
+      {
+        "round_trip_time": 6.008931945078075,
+        "inference_time": 2.7363219409999147,
+        "internal_request_time": 2.797113434000039
+      },
+      {
+        "round_trip_time": 5.561754074878991,
+        "inference_time": 2.3020259549998627,
+        "internal_request_time": 2.3626853480000136
+      },
+      {
+        "round_trip_time": 5.120386330410838,
+        "inference_time": 2.1484293570001682,
+        "internal_request_time": 2.2240670480000517
+      },
+      {
+        "round_trip_time": 5.434628338553011,
+        "inference_time": 2.1589848920002623,
+        "internal_request_time": 2.240570089999892
+      },
+      {
+        "round_trip_time": 5.723903921432793,
+        "inference_time": 2.4204197270000805,
+        "internal_request_time": 2.4883495250001033
+      },
+      {
+        "round_trip_time": 5.7394995568320155,
+        "inference_time": 2.4774570429999585,
+        "internal_request_time": 2.5433674410001004
+      },
+      {
+        "round_trip_time": 5.633177268318832,
+        "inference_time": 2.2844170339999437,
+        "internal_request_time": 2.3542385320001813
+      },
+      {
+        "round_trip_time": 5.404880413785577,
+        "inference_time": 2.218607929999962,
+        "internal_request_time": 2.290621527999974
+      },
+      {
+        "round_trip_time": 5.443398072384298,
+        "inference_time": 2.130336243000329,
+        "internal_request_time": 2.2009762409998075
+      },
+      {
+        "round_trip_time": 5.390483958646655,
+        "inference_time": 2.1903382300001795,
+        "internal_request_time": 2.2461529279999013
+      }
+    ],
+    "round_trip": {
+      "avg": 5.546104388032108,
+      "min": 5.120386330410838,
+      "max": 6.008931945078075
+    },
+    "inference": {
+      "avg": 2.306733835200066,
+      "min": 2.130336243000329,
+      "max": 2.7363219409999147
+    },
+    "internal_request": {
+      "avg": 2.3748142115000066,
+      "min": 2.2009762409998075,
+      "max": 2.797113434000039
+    }
+  },
+  "depth_leres++": {
+    "data": [
+      {
+        "round_trip_time": 33.557140863500535,
+        "inference_time": 30.001514887000212,
+        "internal_request_time": 30.091800788
+      },
+      {
+        "round_trip_time": 29.661131534725428,
+        "inference_time": 26.19314380900005,
+        "internal_request_time": 26.263654506999956
+      },
+      {
+        "round_trip_time": 28.12296614702791,
+        "inference_time": 24.605495189000067,
+        "internal_request_time": 24.677336491999995
+      },
+      {
+        "round_trip_time": 31.51731512788683,
+        "inference_time": 28.070429482000236,
+        "internal_request_time": 28.141229682999892
+      },
+      {
+        "round_trip_time": 30.06411795131862,
+        "inference_time": 26.577466061999985,
+        "internal_request_time": 26.645688431000053
+      },
+      {
+        "round_trip_time": 28.16001140512526,
+        "inference_time": 24.778006887000174,
+        "internal_request_time": 24.845528595999895
+      },
+      {
+        "round_trip_time": 26.00926759094,
+        "inference_time": 22.55579147000026,
+        "internal_request_time": 22.628555077999863
+      },
+      {
+        "round_trip_time": 25.19188836310059,
+        "inference_time": 21.72731295199992,
+        "internal_request_time": 21.79906285299967
+      },
+      {
+        "round_trip_time": 29.999741637147963,
+        "inference_time": 26.567373074999978,
+        "internal_request_time": 26.637979878999886
+      },
+      {
+        "round_trip_time": 26.526314538903534,
+        "inference_time": 23.046437393999895,
+        "internal_request_time": 23.115414883000085
+      }
+    ],
+    "round_trip": {
+      "avg": 28.880989515967666,
+      "min": 25.19188836310059,
+      "max": 33.557140863500535
+    },
+    "inference": {
+      "avg": 25.412297120700078,
+      "min": 21.72731295199992,
+      "max": 30.001514887000212
+    },
+    "internal_request": {
+      "avg": 25.48462511899993,
+      "min": 21.79906285299967,
+      "max": 30.091800788
+    }
+  },
+  "mediapipe_face": {
+    "data": [
+      {
+        "round_trip_time": 2.9690840635448694,
+        "inference_time": 0.03456189399958021,
+        "internal_request_time": 0.04693729200016605
+      },
+      {
+        "round_trip_time": 3.0714862793684006,
+        "inference_time": 0.03191700100023809,
+        "internal_request_time": 0.04463640199992369
+      },
+      {
+        "round_trip_time": 2.9678774792701006,
+        "inference_time": 0.03165720100014369,
+        "internal_request_time": 0.045026001000223914
+      },
+      {
+        "round_trip_time": 2.9707579566165805,
+        "inference_time": 0.029393800999969244,
+        "internal_request_time": 0.04235140200034948
+      },
+      {
+        "round_trip_time": 2.942316209897399,
+        "inference_time": 0.030645399000150064,
+        "internal_request_time": 0.04605329899959543
+      },
+      {
+        "round_trip_time": 3.1040568547323346,
+        "inference_time": 0.030048998999973264,
+        "internal_request_time": 0.04264559900002496
+      },
+      {
+        "round_trip_time": 3.066607912071049,
+        "inference_time": 0.028121799000018655,
+        "internal_request_time": 0.0412457990000803
+      },
+      {
+        "round_trip_time": 3.09897608589381,
+        "inference_time": 0.02945899099995586,
+        "internal_request_time": 0.04192138899998099
+      },
+      {
+        "round_trip_time": 3.0435078628361225,
+        "inference_time": 0.029051091999917844,
+        "internal_request_time": 0.041852987999845936
+      },
+      {
+        "round_trip_time": 2.986764750443399,
+        "inference_time": 0.026303189999907772,
+        "internal_request_time": 0.03935698599980242
+      }
+    ],
+    "round_trip": {
+      "avg": 3.0221435454674066,
+      "min": 2.942316209897399,
+      "max": 3.1040568547323346
+    },
+    "inference": {
+      "avg": 0.03011593669998547,
+      "min": 0.026303189999907772,
+      "max": 0.03456189399958021
+    },
+    "internal_request": {
+      "avg": 0.04320271569999932,
+      "min": 0.03935698599980242,
+      "max": 0.04693729200016605
+    }
+  },
+  "sam": {
+    "data": [
+      {
+        "round_trip_time": 6.152595759369433,
+        "inference_time": 3.0819640070003516,
+        "internal_request_time": 3.092718803000025
+      },
+      {
+        "round_trip_time": 4.887990470044315,
+        "inference_time": 1.8869264969998767,
+        "internal_request_time": 1.8987323940000351
+      },
+      {
+        "round_trip_time": 4.91666304320097,
+        "inference_time": 1.8877535830001761,
+        "internal_request_time": 1.897972080999807
+      },
+      {
+        "round_trip_time": 4.916275771334767,
+        "inference_time": 1.9367505320001328,
+        "internal_request_time": 1.9469920290002847
+      },
+      {
+        "round_trip_time": 4.8433417631313205,
+        "inference_time": 1.8785074639999948,
+        "internal_request_time": 1.888602961000288
+      },
+      {
+        "round_trip_time": 4.989286046475172,
+        "inference_time": 1.9319071519998943,
+        "internal_request_time": 1.9423710490000303
+      },
+      {
+        "round_trip_time": 4.812882501631975,
+        "inference_time": 1.9364225720000832,
+        "internal_request_time": 1.9465707700001076
+      },
+      {
+        "round_trip_time": 4.81102778762579,
+        "inference_time": 1.8710147870001492,
+        "internal_request_time": 1.8823971850001726
+      },
+      {
+        "round_trip_time": 4.8128169206902385,
+        "inference_time": 1.865709593000247,
+        "internal_request_time": 1.8767485910002506
+      },
+      {
+        "round_trip_time": 5.069234039634466,
+        "inference_time": 1.9378165169996464,
+        "internal_request_time": 1.948795316000087
+      }
+    ],
+    "round_trip": {
+      "avg": 5.021211410313844,
+      "min": 4.81102778762579,
+      "max": 6.152595759369433
+    },
+    "inference": {
+      "avg": 2.021477270400055,
+      "min": 1.865709593000247,
+      "max": 3.0819640070003516
+    },
+    "internal_request": {
+      "avg": 2.0321901179001087,
+      "min": 1.8767485910002506,
+      "max": 3.092718803000025
+    }
+  }
+}

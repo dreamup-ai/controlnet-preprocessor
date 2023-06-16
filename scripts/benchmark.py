@@ -2,6 +2,8 @@ import requests
 import os
 import time
 import json
+import random
+import string
 
 base_url = os.getenv("BASE_URL", "http://localhost:1234/")
 if base_url[-1] != "/":
@@ -14,6 +16,9 @@ image = open(image_path, "rb").read()
 output_dir = os.getenv("OUTPUT_DIR", "benchmark_output")
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
+
+api_key = os.getenv("API_KEY", "")
+api_header = os.getenv("API_HEADER", "Salad-Api-Key")
 
 processors = [
     "scribble_hed",
@@ -45,6 +50,14 @@ processors = [
 ]
 
 
+def randomSuffix(numChars=4):
+    return "".join(random.choice(string.ascii_letters) for i in range(numChars))
+
+
+batchId = randomSuffix()
+
+output_file = os.getenv("OUTPUT_FILE", f"data-{batchId}.json")
+
 # For every processor id in processors, we're going to upload an image to the server and time the response
 # We'll do this 10 times and take the average
 all_data = {}
@@ -54,7 +67,10 @@ for processor_id in processors:
     times = []
     for i in range(10):
         start = time.perf_counter()
-        response = requests.post(url, data=image)
+        if api_key:
+            response = requests.post(url, data=image, headers={api_header: api_key})
+        else:
+            response = requests.post(url, data=image)
         # inference time and internal request time are included in headers
         inference_time = response.headers["X-Inference-Time"]
         internal_request_time = response.headers["X-Request-Time"]
@@ -108,5 +124,7 @@ for processor_id in processors:
     )
 
 # Save the data
-with open(os.path.join(output_dir, "data.json"), "w") as f:
+with open(os.path.join(output_dir, output_file), "w") as f:
+    print(json.dumps(all_data, indent=2))
     json.dump(all_data, f)
+    print("Saved data to", f.name)

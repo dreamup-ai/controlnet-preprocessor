@@ -1,0 +1,1727 @@
+{
+  "scribble_hed": {
+    "data": [
+      {
+        "round_trip_time": 4.450854847207665,
+        "inference_time": 1.8498110430000452,
+        "internal_request_time": 1.9636414230001265
+      },
+      {
+        "round_trip_time": 3.68831155449152,
+        "inference_time": 1.2430815789998633,
+        "internal_request_time": 1.2566013120001571
+      },
+      {
+        "round_trip_time": 3.580123427323997,
+        "inference_time": 1.1888499740000498,
+        "internal_request_time": 1.2021744539999872
+      },
+      {
+        "round_trip_time": 3.4774849312379956,
+        "inference_time": 1.2386777239998992,
+        "internal_request_time": 1.2521671209999568
+      },
+      {
+        "round_trip_time": 3.5868276841938496,
+        "inference_time": 1.2173679930001526,
+        "internal_request_time": 1.2303281599999991
+      },
+      {
+        "round_trip_time": 3.5840294724330306,
+        "inference_time": 1.1950985420000961,
+        "internal_request_time": 1.2080002840000361
+      },
+      {
+        "round_trip_time": 3.5813019378110766,
+        "inference_time": 1.1766212740001265,
+        "internal_request_time": 1.1893099220001204
+      },
+      {
+        "round_trip_time": 3.6885383306071162,
+        "inference_time": 1.180927698000005,
+        "internal_request_time": 1.1946587539998745
+      },
+      {
+        "round_trip_time": 3.633675972931087,
+        "inference_time": 1.2191119419999268,
+        "internal_request_time": 1.2322282220000034
+      },
+      {
+        "round_trip_time": 3.6349362675100565,
+        "inference_time": 1.2172753439999724,
+        "internal_request_time": 1.2304816409998693
+      }
+    ],
+    "round_trip": {
+      "avg": 3.6906084425747396,
+      "min": 3.4774849312379956,
+      "max": 4.450854847207665
+    },
+    "inference": {
+      "avg": 1.2726823113000136,
+      "min": 1.1766212740001265,
+      "max": 1.8498110430000452
+    },
+    "internal_request": {
+      "avg": 1.295959129300013,
+      "min": 1.1893099220001204,
+      "max": 1.9636414230001265
+    }
+  },
+  "softedge_hed": {
+    "data": [
+      {
+        "round_trip_time": 3.86008863709867,
+        "inference_time": 1.1951178479998816,
+        "internal_request_time": 1.2534187220001058
+      },
+      {
+        "round_trip_time": 3.864338302053511,
+        "inference_time": 1.1691368669999065,
+        "internal_request_time": 1.2678571779999857
+      },
+      {
+        "round_trip_time": 3.9407067028805614,
+        "inference_time": 1.2395294240000112,
+        "internal_request_time": 1.2976736690000052
+      },
+      {
+        "round_trip_time": 3.7472163578495383,
+        "inference_time": 1.0827503729999535,
+        "internal_request_time": 1.1714684209998723
+      },
+      {
+        "round_trip_time": 3.859517050907016,
+        "inference_time": 1.1622441100000742,
+        "internal_request_time": 1.2211117240001386
+      },
+      {
+        "round_trip_time": 3.8992775809019804,
+        "inference_time": 1.2391533320001145,
+        "internal_request_time": 1.2986799430000247
+      },
+      {
+        "round_trip_time": 3.9072964005172253,
+        "inference_time": 1.2523735820000184,
+        "internal_request_time": 1.309964132999994
+      },
+      {
+        "round_trip_time": 3.925102992914617,
+        "inference_time": 1.2035615810000309,
+        "internal_request_time": 1.2817641850001564
+      },
+      {
+        "round_trip_time": 3.850703502073884,
+        "inference_time": 1.228190695999956,
+        "internal_request_time": 1.2871428009998453
+      },
+      {
+        "round_trip_time": 3.9129630168899894,
+        "inference_time": 1.2131144630000108,
+        "internal_request_time": 1.2710363529999995
+      }
+    ],
+    "round_trip": {
+      "avg": 3.876721054408699,
+      "min": 3.7472163578495383,
+      "max": 3.9407067028805614
+    },
+    "inference": {
+      "avg": 1.1985172275999958,
+      "min": 1.0827503729999535,
+      "max": 1.2523735820000184
+    },
+    "internal_request": {
+      "avg": 1.2660117129000128,
+      "min": 1.1714684209998723,
+      "max": 1.309964132999994
+    }
+  },
+  "scribble_hedsafe": {
+    "data": [
+      {
+        "round_trip_time": 3.7281788727268577,
+        "inference_time": 1.22959544299988,
+        "internal_request_time": 1.2422220590001416
+      },
+      {
+        "round_trip_time": 3.685641013085842,
+        "inference_time": 1.2258633550000013,
+        "internal_request_time": 1.2389669259998755
+      },
+      {
+        "round_trip_time": 3.582315902225673,
+        "inference_time": 1.2008741249999275,
+        "internal_request_time": 1.2139394640000774
+      },
+      {
+        "round_trip_time": 3.503869216889143,
+        "inference_time": 1.1835507370001324,
+        "internal_request_time": 1.1965604039999107
+      },
+      {
+        "round_trip_time": 3.6672072410583496,
+        "inference_time": 1.231674885000075,
+        "internal_request_time": 1.2446224180000627
+      },
+      {
+        "round_trip_time": 3.5847824355587363,
+        "inference_time": 1.1954314669999349,
+        "internal_request_time": 1.2081144170001608
+      },
+      {
+        "round_trip_time": 3.481903892941773,
+        "inference_time": 1.1912465510001766,
+        "internal_request_time": 1.2059739329999957
+      },
+      {
+        "round_trip_time": 3.6889152666553855,
+        "inference_time": 1.23601247900001,
+        "internal_request_time": 1.25007420299994
+      },
+      {
+        "round_trip_time": 3.582454677671194,
+        "inference_time": 1.236698830000023,
+        "internal_request_time": 1.2506857620001028
+      },
+      {
+        "round_trip_time": 3.478884283453226,
+        "inference_time": 1.305745705000163,
+        "internal_request_time": 1.3194412549999015
+      }
+    ],
+    "round_trip": {
+      "avg": 3.598415280226618,
+      "min": 3.478884283453226,
+      "max": 3.7281788727268577
+    },
+    "inference": {
+      "avg": 1.2236693577000324,
+      "min": 1.1835507370001324,
+      "max": 1.305745705000163
+    },
+    "internal_request": {
+      "avg": 1.2370600841000168,
+      "min": 1.1965604039999107,
+      "max": 1.3194412549999015
+    }
+  },
+  "softedge_hedsafe": {
+    "data": [
+      {
+        "round_trip_time": 3.488516797311604,
+        "inference_time": 1.1940735989999212,
+        "internal_request_time": 1.2118549290000828
+      },
+      {
+        "round_trip_time": 3.688829711638391,
+        "inference_time": 1.1968311660000381,
+        "internal_request_time": 1.2147136969999792
+      },
+      {
+        "round_trip_time": 3.5758731327950954,
+        "inference_time": 1.1976870140001665,
+        "internal_request_time": 1.215592941000068
+      },
+      {
+        "round_trip_time": 3.6029433365911245,
+        "inference_time": 1.2104480210000474,
+        "internal_request_time": 1.229283778999843
+      },
+      {
+        "round_trip_time": 3.6696309624239802,
+        "inference_time": 1.1927854470000057,
+        "internal_request_time": 1.2113272609999512
+      },
+      {
+        "round_trip_time": 3.620169053785503,
+        "inference_time": 1.2209531559999505,
+        "internal_request_time": 1.2412149609999688
+      },
+      {
+        "round_trip_time": 3.5607869513332844,
+        "inference_time": 1.1716776010000558,
+        "internal_request_time": 1.1900754459998097
+      },
+      {
+        "round_trip_time": 3.468009770847857,
+        "inference_time": 1.2163272129998859,
+        "internal_request_time": 1.235191332000113
+      },
+      {
+        "round_trip_time": 3.7879282739013433,
+        "inference_time": 1.2509299700000156,
+        "internal_request_time": 1.2697033160000046
+      },
+      {
+        "round_trip_time": 4.031670928932726,
+        "inference_time": 1.1802016019998973,
+        "internal_request_time": 1.1985681709998062
+      }
+    ],
+    "round_trip": {
+      "avg": 3.6494358919560907,
+      "min": 3.468009770847857,
+      "max": 4.031670928932726
+    },
+    "inference": {
+      "avg": 1.2031914788999984,
+      "min": 1.1716776010000558,
+      "max": 1.2509299700000156
+    },
+    "internal_request": {
+      "avg": 1.2217525832999627,
+      "min": 1.1900754459998097,
+      "max": 1.2697033160000046
+    }
+  },
+  "depth_midas": {
+    "data": [
+      {
+        "round_trip_time": 6.29012340772897,
+        "inference_time": 3.993102707999924,
+        "internal_request_time": 4.0490597189998425
+      },
+      {
+        "round_trip_time": 6.4786646226421,
+        "inference_time": 3.874961274000043,
+        "internal_request_time": 3.928784958000051
+      },
+      {
+        "round_trip_time": 6.446067628450692,
+        "inference_time": 3.901360292000163,
+        "internal_request_time": 3.9595741480000015
+      },
+      {
+        "round_trip_time": 6.552852283231914,
+        "inference_time": 3.8601261620001424,
+        "internal_request_time": 3.912858488999973
+      },
+      {
+        "round_trip_time": 6.418507555499673,
+        "inference_time": 3.897629193000057,
+        "internal_request_time": 3.952391513000066
+      },
+      {
+        "round_trip_time": 6.486815862357616,
+        "inference_time": 3.8791345260001435,
+        "internal_request_time": 3.9373058879998553
+      },
+      {
+        "round_trip_time": 6.470606693066657,
+        "inference_time": 3.93226537999999,
+        "internal_request_time": 4.036336943999913
+      },
+      {
+        "round_trip_time": 6.431732245720923,
+        "inference_time": 3.76909149800008,
+        "internal_request_time": 3.8259158809999008
+      },
+      {
+        "round_trip_time": 6.509991333819926,
+        "inference_time": 3.9774808679999296,
+        "internal_request_time": 4.031927657000097
+      },
+      {
+        "round_trip_time": 6.393689962103963,
+        "inference_time": 3.8340393670000594,
+        "internal_request_time": 3.8894895810001344
+      }
+    ],
+    "round_trip": {
+      "avg": 6.447905159462243,
+      "min": 6.29012340772897,
+      "max": 6.552852283231914
+    },
+    "inference": {
+      "avg": 3.8919191268000533,
+      "min": 3.76909149800008,
+      "max": 3.993102707999924
+    },
+    "internal_request": {
+      "avg": 3.9523644777999833,
+      "min": 3.8259158809999008,
+      "max": 4.0490597189998425
+    }
+  },
+  "mlsd": {
+    "data": [
+      {
+        "round_trip_time": 2.9726887671276927,
+        "inference_time": 0.6009970690001865,
+        "internal_request_time": 0.6099009289998776
+      },
+      {
+        "round_trip_time": 3.030143025331199,
+        "inference_time": 0.6388477699999839,
+        "internal_request_time": 0.6483538009999847
+      },
+      {
+        "round_trip_time": 3.1048327097669244,
+        "inference_time": 0.5879920310001125,
+        "internal_request_time": 0.5971672830000898
+      },
+      {
+        "round_trip_time": 3.072165383026004,
+        "inference_time": 0.6007869540001138,
+        "internal_request_time": 0.6107399840000198
+      },
+      {
+        "round_trip_time": 2.969531776383519,
+        "inference_time": 0.5947778509998898,
+        "internal_request_time": 0.60401355099998
+      },
+      {
+        "round_trip_time": 2.958171235397458,
+        "inference_time": 0.6261385220000193,
+        "internal_request_time": 0.6346954559999176
+      },
+      {
+        "round_trip_time": 2.9245368111878633,
+        "inference_time": 0.5962704460000623,
+        "internal_request_time": 0.6053971680000814
+      },
+      {
+        "round_trip_time": 2.8277995297685266,
+        "inference_time": 0.6389359199999944,
+        "internal_request_time": 0.6474734930000068
+      },
+      {
+        "round_trip_time": 3.252243096008897,
+        "inference_time": 0.5900937900000827,
+        "internal_request_time": 0.5997505969999111
+      },
+      {
+        "round_trip_time": 2.9098765226081014,
+        "inference_time": 0.5733900929999436,
+        "internal_request_time": 0.5821445340000082
+      }
+    ],
+    "round_trip": {
+      "avg": 3.0021988856606185,
+      "min": 2.8277995297685266,
+      "max": 3.252243096008897
+    },
+    "inference": {
+      "avg": 0.6048230446000389,
+      "min": 0.5733900929999436,
+      "max": 0.6389359199999944
+    },
+    "internal_request": {
+      "avg": 0.6139636795999877,
+      "min": 0.5821445340000082,
+      "max": 0.6483538009999847
+    }
+  },
+  "openpose": {
+    "data": [
+      {
+        "round_trip_time": 3.198282605037093,
+        "inference_time": 0.8758826069999941,
+        "internal_request_time": 0.8857113730000492
+      },
+      {
+        "round_trip_time": 2.8624374428763986,
+        "inference_time": 0.8227242109999224,
+        "internal_request_time": 0.8313248100000692
+      },
+      {
+        "round_trip_time": 3.4426481099799275,
+        "inference_time": 0.8638022779998664,
+        "internal_request_time": 0.872926722000102
+      },
+      {
+        "round_trip_time": 3.1685950811952353,
+        "inference_time": 0.8106665540001359,
+        "internal_request_time": 0.8193919989998903
+      },
+      {
+        "round_trip_time": 3.281148881651461,
+        "inference_time": 0.9133995170000162,
+        "internal_request_time": 0.9224977970000054
+      },
+      {
+        "round_trip_time": 3.32392958085984,
+        "inference_time": 0.9234538759999396,
+        "internal_request_time": 0.9315500959999099
+      },
+      {
+        "round_trip_time": 3.738409931771457,
+        "inference_time": 0.9203979799999615,
+        "internal_request_time": 0.9294634689999839
+      },
+      {
+        "round_trip_time": 3.277968842536211,
+        "inference_time": 0.807524930999989,
+        "internal_request_time": 0.8164968520000002
+      },
+      {
+        "round_trip_time": 3.4103769967332482,
+        "inference_time": 0.909144994999906,
+        "internal_request_time": 0.9240357240000776
+      },
+      {
+        "round_trip_time": 3.44944029673934,
+        "inference_time": 0.9014539300001161,
+        "internal_request_time": 0.9111185940000723
+      }
+    ],
+    "round_trip": {
+      "avg": 3.3153237769380213,
+      "min": 2.8624374428763986,
+      "max": 3.738409931771457
+    },
+    "inference": {
+      "avg": 0.8748450878999847,
+      "min": 0.807524930999989,
+      "max": 0.9234538759999396
+    },
+    "internal_request": {
+      "avg": 0.884451743600016,
+      "min": 0.8164968520000002,
+      "max": 0.9315500959999099
+    }
+  },
+  "openpose_face": {
+    "data": [
+      {
+        "round_trip_time": 3.2770356172695756,
+        "inference_time": 0.9112226069998997,
+        "internal_request_time": 0.9212740449997909
+      },
+      {
+        "round_trip_time": 3.282914132811129,
+        "inference_time": 0.8785265359999812,
+        "internal_request_time": 0.8875789700000496
+      },
+      {
+        "round_trip_time": 3.3737450996413827,
+        "inference_time": 0.8741338140000607,
+        "internal_request_time": 0.8838819719999265
+      },
+      {
+        "round_trip_time": 3.277320430614054,
+        "inference_time": 0.9130802590000258,
+        "internal_request_time": 0.9220946309999363
+      },
+      {
+        "round_trip_time": 3.1750168967992067,
+        "inference_time": 0.8396388119999756,
+        "internal_request_time": 0.8478994789998069
+      },
+      {
+        "round_trip_time": 3.6985324854031205,
+        "inference_time": 0.9113230860000385,
+        "internal_request_time": 0.9200545769999735
+      },
+      {
+        "round_trip_time": 3.264883347786963,
+        "inference_time": 0.8634544320000259,
+        "internal_request_time": 0.8719813190000423
+      },
+      {
+        "round_trip_time": 3.1753111397847533,
+        "inference_time": 0.9084216169999308,
+        "internal_request_time": 0.9174067660001128
+      },
+      {
+        "round_trip_time": 3.2042664429172873,
+        "inference_time": 0.8557892150001862,
+        "internal_request_time": 0.8643390400000044
+      },
+      {
+        "round_trip_time": 3.2481727842241526,
+        "inference_time": 0.8104394110000612,
+        "internal_request_time": 0.8188553959998899
+      }
+    ],
+    "round_trip": {
+      "avg": 3.2977198377251624,
+      "min": 3.1750168967992067,
+      "max": 3.6985324854031205
+    },
+    "inference": {
+      "avg": 0.8766029789000186,
+      "min": 0.8104394110000612,
+      "max": 0.9130802590000258
+    },
+    "internal_request": {
+      "avg": 0.8855366194999533,
+      "min": 0.8188553959998899,
+      "max": 0.9220946309999363
+    }
+  },
+  "openpose_faceonly": {
+    "data": [
+      {
+        "round_trip_time": 3.2778997691348195,
+        "inference_time": 0.9373699059999581,
+        "internal_request_time": 0.9463879069999166
+      },
+      {
+        "round_trip_time": 3.2729645362123847,
+        "inference_time": 0.9195478569999977,
+        "internal_request_time": 0.9286832329999015
+      },
+      {
+        "round_trip_time": 3.4821271086111665,
+        "inference_time": 0.8935430479998558,
+        "internal_request_time": 0.9030579860000216
+      },
+      {
+        "round_trip_time": 2.9675524588674307,
+        "inference_time": 0.8167965079999249,
+        "internal_request_time": 0.825393743999939
+      },
+      {
+        "round_trip_time": 3.1807115199044347,
+        "inference_time": 0.8408370140000443,
+        "internal_request_time": 0.8491671399999632
+      },
+      {
+        "round_trip_time": 3.2713287016376853,
+        "inference_time": 0.8414151459999175,
+        "internal_request_time": 0.8500569610000639
+      },
+      {
+        "round_trip_time": 3.2755491733551025,
+        "inference_time": 0.8171825130000343,
+        "internal_request_time": 0.8259472669999468
+      },
+      {
+        "round_trip_time": 3.3888243678957224,
+        "inference_time": 0.8914030190001085,
+        "internal_request_time": 0.9001883710000129
+      },
+      {
+        "round_trip_time": 3.269206278026104,
+        "inference_time": 0.875519888000099,
+        "internal_request_time": 0.8843218119998255
+      },
+      {
+        "round_trip_time": 3.4893738254904747,
+        "inference_time": 0.9313668529998722,
+        "internal_request_time": 0.9397916469999927
+      }
+    ],
+    "round_trip": {
+      "avg": 3.2875537739135323,
+      "min": 2.9675524588674307,
+      "max": 3.4893738254904747
+    },
+    "inference": {
+      "avg": 0.8764981751999812,
+      "min": 0.8167965079999249,
+      "max": 0.9373699059999581
+    },
+    "internal_request": {
+      "avg": 0.8852996067999583,
+      "min": 0.825393743999939,
+      "max": 0.9463879069999166
+    }
+  },
+  "openpose_full": {
+    "data": [
+      {
+        "round_trip_time": 3.2709379363805056,
+        "inference_time": 0.8726116400000592,
+        "internal_request_time": 0.8810141730000396
+      },
+      {
+        "round_trip_time": 3.1706819543614984,
+        "inference_time": 0.885016749999977,
+        "internal_request_time": 0.8938153619999412
+      },
+      {
+        "round_trip_time": 3.27702150773257,
+        "inference_time": 0.889406001999987,
+        "internal_request_time": 0.898279225999886
+      },
+      {
+        "round_trip_time": 3.2766729975119233,
+        "inference_time": 0.8951966889999312,
+        "internal_request_time": 0.9036253429999306
+      },
+      {
+        "round_trip_time": 3.663684979081154,
+        "inference_time": 0.8654945600001156,
+        "internal_request_time": 0.8741656699999112
+      },
+      {
+        "round_trip_time": 3.1975203519687057,
+        "inference_time": 0.8282135099998413,
+        "internal_request_time": 0.8366408189999675
+      },
+      {
+        "round_trip_time": 3.0730492314323783,
+        "inference_time": 0.8780241070001011,
+        "internal_request_time": 0.8870291609998731
+      },
+      {
+        "round_trip_time": 3.1745110331103206,
+        "inference_time": 0.8607224290001341,
+        "internal_request_time": 0.8698573770000166
+      },
+      {
+        "round_trip_time": 3.173960958607495,
+        "inference_time": 0.8645635980001316,
+        "internal_request_time": 0.8733229280001069
+      },
+      {
+        "round_trip_time": 3.073541197925806,
+        "inference_time": 0.829447269999946,
+        "internal_request_time": 0.8386254480001298
+      }
+    ],
+    "round_trip": {
+      "avg": 3.2351582148112357,
+      "min": 3.0730492314323783,
+      "max": 3.663684979081154
+    },
+    "inference": {
+      "avg": 0.8668696555000224,
+      "min": 0.8282135099998413,
+      "max": 0.8951966889999312
+    },
+    "internal_request": {
+      "avg": 0.8756375506999803,
+      "min": 0.8366408189999675,
+      "max": 0.9036253429999306
+    }
+  },
+  "openpose_hand": {
+    "data": [
+      {
+        "round_trip_time": 3.273763805627823,
+        "inference_time": 0.848090491999983,
+        "internal_request_time": 0.8572174450000603
+      },
+      {
+        "round_trip_time": 3.278105452656746,
+        "inference_time": 0.8910894250000183,
+        "internal_request_time": 0.8997263270000531
+      },
+      {
+        "round_trip_time": 3.2768832920119166,
+        "inference_time": 0.8945584690000032,
+        "internal_request_time": 0.9033724639998582
+      },
+      {
+        "round_trip_time": 3.1761073376983404,
+        "inference_time": 0.8028765829999429,
+        "internal_request_time": 0.8113564860000224
+      },
+      {
+        "round_trip_time": 3.3862370774149895,
+        "inference_time": 0.9207528580000144,
+        "internal_request_time": 0.9291759860000184
+      },
+      {
+        "round_trip_time": 3.1288573890924454,
+        "inference_time": 0.8742871510000896,
+        "internal_request_time": 0.8834468899999592
+      },
+      {
+        "round_trip_time": 2.794077731668949,
+        "inference_time": 0.8438458299999638,
+        "internal_request_time": 0.8526945490000344
+      },
+      {
+        "round_trip_time": 3.013018649071455,
+        "inference_time": 0.8836498289999781,
+        "internal_request_time": 0.8921552840001823
+      },
+      {
+        "round_trip_time": 3.036411258392036,
+        "inference_time": 0.866516656000158,
+        "internal_request_time": 0.8748680500000319
+      },
+      {
+        "round_trip_time": 3.27648351714015,
+        "inference_time": 0.8947327270000187,
+        "internal_request_time": 0.9031917380000323
+      }
+    ],
+    "round_trip": {
+      "avg": 3.163994551077485,
+      "min": 2.794077731668949,
+      "max": 3.3862370774149895
+    },
+    "inference": {
+      "avg": 0.872040002000017,
+      "min": 0.8028765829999429,
+      "max": 0.9207528580000144
+    },
+    "internal_request": {
+      "avg": 0.8807205219000253,
+      "min": 0.8113564860000224,
+      "max": 0.9291759860000184
+    }
+  },
+  "scribble_pidinet": {
+    "data": [
+      {
+        "round_trip_time": 3.7454203758388758,
+        "inference_time": 1.422395619000099,
+        "internal_request_time": 1.4347503930000585
+      },
+      {
+        "round_trip_time": 3.677965186536312,
+        "inference_time": 1.5043600659998901,
+        "internal_request_time": 1.5193344740000612
+      },
+      {
+        "round_trip_time": 3.742816393263638,
+        "inference_time": 1.4092087669998818,
+        "internal_request_time": 1.421635508999998
+      },
+      {
+        "round_trip_time": 3.7863061279058456,
+        "inference_time": 1.5645331580001312,
+        "internal_request_time": 1.5769935280000027
+      },
+      {
+        "round_trip_time": 3.644512001425028,
+        "inference_time": 1.3891930560000674,
+        "internal_request_time": 1.4011882950001109
+      },
+      {
+        "round_trip_time": 3.7252001902088523,
+        "inference_time": 1.410665452000103,
+        "internal_request_time": 1.4225854119999894
+      },
+      {
+        "round_trip_time": 3.6938635613769293,
+        "inference_time": 1.3099930680000398,
+        "internal_request_time": 1.322733104000008
+      },
+      {
+        "round_trip_time": 3.579355238005519,
+        "inference_time": 1.4022279579999122,
+        "internal_request_time": 1.415108759999839
+      },
+      {
+        "round_trip_time": 3.68901458196342,
+        "inference_time": 1.4112699889999476,
+        "internal_request_time": 1.4236860060000254
+      },
+      {
+        "round_trip_time": 3.88889454677701,
+        "inference_time": 1.3942663909999737,
+        "internal_request_time": 1.406703410999853
+      }
+    ],
+    "round_trip": {
+      "avg": 3.717334820330143,
+      "min": 3.579355238005519,
+      "max": 3.88889454677701
+    },
+    "inference": {
+      "avg": 1.4218113524000047,
+      "min": 1.3099930680000398,
+      "max": 1.5645331580001312
+    },
+    "internal_request": {
+      "avg": 1.4344718891999946,
+      "min": 1.322733104000008,
+      "max": 1.5769935280000027
+    }
+  },
+  "softedge_pidinet": {
+    "data": [
+      {
+        "round_trip_time": 3.9210127759724855,
+        "inference_time": 1.3209007509999537,
+        "internal_request_time": 1.4271695310001178
+      },
+      {
+        "round_trip_time": 3.967714536935091,
+        "inference_time": 1.4011856290001106,
+        "internal_request_time": 1.4694275619999644
+      },
+      {
+        "round_trip_time": 3.8555995542556047,
+        "inference_time": 1.4857534729999315,
+        "internal_request_time": 1.5549622949999957
+      },
+      {
+        "round_trip_time": 4.053167614154518,
+        "inference_time": 1.5222051109999484,
+        "internal_request_time": 1.6030780080000113
+      },
+      {
+        "round_trip_time": 4.019468306563795,
+        "inference_time": 1.315527437000128,
+        "internal_request_time": 1.387283669999988
+      },
+      {
+        "round_trip_time": 4.249092925339937,
+        "inference_time": 1.4614076729999397,
+        "internal_request_time": 1.559245977000046
+      },
+      {
+        "round_trip_time": 4.104059184901416,
+        "inference_time": 1.4265267810001205,
+        "internal_request_time": 1.4967020300000513
+      },
+      {
+        "round_trip_time": 4.002507219091058,
+        "inference_time": 1.4115241479998986,
+        "internal_request_time": 1.4817218110001704
+      },
+      {
+        "round_trip_time": 4.107677900232375,
+        "inference_time": 1.280353299999888,
+        "internal_request_time": 1.350456597999937
+      },
+      {
+        "round_trip_time": 4.002779321745038,
+        "inference_time": 1.382601644000033,
+        "internal_request_time": 1.4527163660000042
+      }
+    ],
+    "round_trip": {
+      "avg": 4.028307933919132,
+      "min": 3.8555995542556047,
+      "max": 4.249092925339937
+    },
+    "inference": {
+      "avg": 1.4007985946999952,
+      "min": 1.280353299999888,
+      "max": 1.5222051109999484
+    },
+    "internal_request": {
+      "avg": 1.4782763848000287,
+      "min": 1.350456597999937,
+      "max": 1.6030780080000113
+    }
+  },
+  "scribble_pidsafe": {
+    "data": [
+      {
+        "round_trip_time": 3.6534278681501746,
+        "inference_time": 1.4196381819999715,
+        "internal_request_time": 1.4336066769999434
+      },
+      {
+        "round_trip_time": 3.7814666479825974,
+        "inference_time": 1.4333975269998973,
+        "internal_request_time": 1.446837460999859
+      },
+      {
+        "round_trip_time": 3.7910847747698426,
+        "inference_time": 1.354511157999923,
+        "internal_request_time": 1.3685370230000444
+      },
+      {
+        "round_trip_time": 3.789207147434354,
+        "inference_time": 1.4693828609999855,
+        "internal_request_time": 1.4820414419998542
+      },
+      {
+        "round_trip_time": 3.7456338107585907,
+        "inference_time": 1.4891477060000398,
+        "internal_request_time": 1.5013409260000117
+      },
+      {
+        "round_trip_time": 3.7248794762417674,
+        "inference_time": 1.4865074259998892,
+        "internal_request_time": 1.498367455999869
+      },
+      {
+        "round_trip_time": 3.610195152461529,
+        "inference_time": 1.3398305339999297,
+        "internal_request_time": 1.3522867500000757
+      },
+      {
+        "round_trip_time": 3.7670034542679787,
+        "inference_time": 1.501914012000043,
+        "internal_request_time": 1.5142438220000258
+      },
+      {
+        "round_trip_time": 3.78598443698138,
+        "inference_time": 1.4223030029997972,
+        "internal_request_time": 1.435323507000021
+      },
+      {
+        "round_trip_time": 3.686821410432458,
+        "inference_time": 1.3757964880001055,
+        "internal_request_time": 1.3886545990001196
+      }
+    ],
+    "round_trip": {
+      "avg": 3.733570417948067,
+      "min": 3.610195152461529,
+      "max": 3.7910847747698426
+    },
+    "inference": {
+      "avg": 1.429242889699958,
+      "min": 1.3398305339999297,
+      "max": 1.501914012000043
+    },
+    "internal_request": {
+      "avg": 1.4421239662999823,
+      "min": 1.3522867500000757,
+      "max": 1.5142438220000258
+    }
+  },
+  "softedge_pidsafe": {
+    "data": [
+      {
+        "round_trip_time": 3.686064114794135,
+        "inference_time": 1.3307104860000436,
+        "internal_request_time": 1.3507966879999458
+      },
+      {
+        "round_trip_time": 3.7972710840404034,
+        "inference_time": 1.400699005999968,
+        "internal_request_time": 1.4204448069999671
+      },
+      {
+        "round_trip_time": 3.6805189540609717,
+        "inference_time": 1.3760887030000504,
+        "internal_request_time": 1.394110707999971
+      },
+      {
+        "round_trip_time": 3.458423003554344,
+        "inference_time": 1.4330456210000193,
+        "internal_request_time": 1.4509282459998758
+      },
+      {
+        "round_trip_time": 3.7070846864953637,
+        "inference_time": 1.340706855999997,
+        "internal_request_time": 1.3579609149999214
+      },
+      {
+        "round_trip_time": 3.7925262404605746,
+        "inference_time": 1.401543631999857,
+        "internal_request_time": 1.4205150809998486
+      },
+      {
+        "round_trip_time": 3.68024873547256,
+        "inference_time": 1.4233220529999926,
+        "internal_request_time": 1.4408921169999758
+      },
+      {
+        "round_trip_time": 5.021053899079561,
+        "inference_time": 1.3730796400000145,
+        "internal_request_time": 1.3912676959998862
+      },
+      {
+        "round_trip_time": 3.5831148233264685,
+        "inference_time": 1.286127783999973,
+        "internal_request_time": 1.3442360599999574
+      },
+      {
+        "round_trip_time": 3.7934408904984593,
+        "inference_time": 1.4378965220000737,
+        "internal_request_time": 1.4553561720001653
+      }
+    ],
+    "round_trip": {
+      "avg": 3.819974643178284,
+      "min": 3.458423003554344,
+      "max": 5.021053899079561
+    },
+    "inference": {
+      "avg": 1.380322030299999,
+      "min": 1.286127783999973,
+      "max": 1.4378965220000737
+    },
+    "internal_request": {
+      "avg": 1.4026508489999514,
+      "min": 1.3442360599999574,
+      "max": 1.4553561720001653
+    }
+  },
+  "normal_bae": {
+    "data": [
+      {
+        "round_trip_time": 6.223044037818909,
+        "inference_time": 3.324722804999965,
+        "internal_request_time": 3.448249075999911
+      },
+      {
+        "round_trip_time": 6.066848458722234,
+        "inference_time": 3.301607438000019,
+        "internal_request_time": 3.406290327000079
+      },
+      {
+        "round_trip_time": 6.004039357416332,
+        "inference_time": 3.321523006999996,
+        "internal_request_time": 3.4289449849998164
+      },
+      {
+        "round_trip_time": 6.07802727073431,
+        "inference_time": 3.351570516000038,
+        "internal_request_time": 3.459246151999878
+      },
+      {
+        "round_trip_time": 6.136450375430286,
+        "inference_time": 3.382519775999981,
+        "internal_request_time": 3.489508849999993
+      },
+      {
+        "round_trip_time": 5.745747254230082,
+        "inference_time": 3.2563408529999833,
+        "internal_request_time": 3.4022494169998936
+      },
+      {
+        "round_trip_time": 5.943491036072373,
+        "inference_time": 3.1865174550000575,
+        "internal_request_time": 3.290723613999944
+      },
+      {
+        "round_trip_time": 5.979794536717236,
+        "inference_time": 3.3409804580001037,
+        "internal_request_time": 3.4437547519999043
+      },
+      {
+        "round_trip_time": 5.886071420274675,
+        "inference_time": 3.2540999610000654,
+        "internal_request_time": 3.387485265000123
+      },
+      {
+        "round_trip_time": 6.064404621720314,
+        "inference_time": 3.330479573000048,
+        "internal_request_time": 3.461796257999822
+      }
+    ],
+    "round_trip": {
+      "avg": 6.012791836913675,
+      "min": 5.745747254230082,
+      "max": 6.223044037818909
+    },
+    "inference": {
+      "avg": 3.3050361842000258,
+      "min": 3.1865174550000575,
+      "max": 3.382519775999981
+    },
+    "internal_request": {
+      "avg": 3.4218248695999365,
+      "min": 3.290723613999944,
+      "max": 3.489508849999993
+    }
+  },
+  "lineart_realistic": {
+    "data": [
+      {
+        "round_trip_time": 4.069179829210043,
+        "inference_time": 1.4948529830001007,
+        "internal_request_time": 1.5384093170000597
+      },
+      {
+        "round_trip_time": 4.104695443995297,
+        "inference_time": 1.6011745910000172,
+        "internal_request_time": 1.6441878440000437
+      },
+      {
+        "round_trip_time": 4.090235393494368,
+        "inference_time": 1.4785296110001127,
+        "internal_request_time": 1.522315443000025
+      },
+      {
+        "round_trip_time": 4.39710409194231,
+        "inference_time": 1.5345989559998543,
+        "internal_request_time": 1.5788535070000762
+      },
+      {
+        "round_trip_time": 4.251567769795656,
+        "inference_time": 1.3959400419998929,
+        "internal_request_time": 1.4995930400000361
+      },
+      {
+        "round_trip_time": 3.9843529537320137,
+        "inference_time": 1.470048567999811,
+        "internal_request_time": 1.5150143799999114
+      },
+      {
+        "round_trip_time": 3.9967183796688914,
+        "inference_time": 1.509089202000041,
+        "internal_request_time": 1.5529431780000778
+      },
+      {
+        "round_trip_time": 4.162524054758251,
+        "inference_time": 1.5438581720000002,
+        "internal_request_time": 1.5982313889999205
+      },
+      {
+        "round_trip_time": 4.057386199012399,
+        "inference_time": 1.460639676000028,
+        "internal_request_time": 1.5038665990000482
+      },
+      {
+        "round_trip_time": 4.234202369116247,
+        "inference_time": 1.530324513999858,
+        "internal_request_time": 1.6202360660001887
+      }
+    ],
+    "round_trip": {
+      "avg": 4.134796648472547,
+      "min": 3.9843529537320137,
+      "max": 4.39710409194231
+    },
+    "inference": {
+      "avg": 1.5019056314999717,
+      "min": 1.3959400419998929,
+      "max": 1.6011745910000172
+    },
+    "internal_request": {
+      "avg": 1.5573650763000386,
+      "min": 1.4995930400000361,
+      "max": 1.6441878440000437
+    }
+  },
+  "lineart_coarse": {
+    "data": [
+      {
+        "round_trip_time": 4.23545162845403,
+        "inference_time": 1.5219325149998895,
+        "internal_request_time": 1.6213308300000335
+      },
+      {
+        "round_trip_time": 4.247008356265724,
+        "inference_time": 1.5519546519999494,
+        "internal_request_time": 1.6151531870000326
+      },
+      {
+        "round_trip_time": 4.105844411998987,
+        "inference_time": 1.4480630450000262,
+        "internal_request_time": 1.5087867099998675
+      },
+      {
+        "round_trip_time": 4.110291310586035,
+        "inference_time": 1.498588189999964,
+        "internal_request_time": 1.5621587159998853
+      },
+      {
+        "round_trip_time": 4.078685092739761,
+        "inference_time": 1.472456050999881,
+        "internal_request_time": 1.5356592499999806
+      },
+      {
+        "round_trip_time": 4.411376408301294,
+        "inference_time": 1.4964538350000112,
+        "internal_request_time": 1.6074186920000102
+      },
+      {
+        "round_trip_time": 4.191646349616349,
+        "inference_time": 1.4785981499999252,
+        "internal_request_time": 1.5414754490000178
+      },
+      {
+        "round_trip_time": 4.210277633741498,
+        "inference_time": 1.5463806630000363,
+        "internal_request_time": 1.609034131000044
+      },
+      {
+        "round_trip_time": 4.398075591772795,
+        "inference_time": 1.5157111240000631,
+        "internal_request_time": 1.6280840400002035
+      },
+      {
+        "round_trip_time": 3.8943327106535435,
+        "inference_time": 1.5151597459998811,
+        "internal_request_time": 1.5810547460000635
+      }
+    ],
+    "round_trip": {
+      "avg": 4.188298949413001,
+      "min": 3.8943327106535435,
+      "max": 4.411376408301294
+    },
+    "inference": {
+      "avg": 1.5045297970999627,
+      "min": 1.4480630450000262,
+      "max": 1.5519546519999494
+    },
+    "internal_request": {
+      "avg": 1.581015575100014,
+      "min": 1.5087867099998675,
+      "max": 1.6280840400002035
+    }
+  },
+  "lineart_anime": {
+    "data": [
+      {
+        "round_trip_time": 3.0224016876891255,
+        "inference_time": 0.42651231700006065,
+        "internal_request_time": 0.4754843319999509
+      },
+      {
+        "round_trip_time": 3.1227578222751617,
+        "inference_time": 0.43736734300000535,
+        "internal_request_time": 0.4866655849998551
+      },
+      {
+        "round_trip_time": 3.171097792685032,
+        "inference_time": 0.37391974299998765,
+        "internal_request_time": 0.46865905499998917
+      },
+      {
+        "round_trip_time": 2.966805012896657,
+        "inference_time": 0.42829476500014607,
+        "internal_request_time": 0.4790841280000677
+      },
+      {
+        "round_trip_time": 2.95239392016083,
+        "inference_time": 0.37183925899989845,
+        "internal_request_time": 0.4727943249999953
+      },
+      {
+        "round_trip_time": 2.9366383738815784,
+        "inference_time": 0.39960474000008617,
+        "internal_request_time": 0.4459394319999319
+      },
+      {
+        "round_trip_time": 2.8951315879821777,
+        "inference_time": 0.39618069999983163,
+        "internal_request_time": 0.4436843500000123
+      },
+      {
+        "round_trip_time": 2.910532827489078,
+        "inference_time": 0.40998779799997465,
+        "internal_request_time": 0.4581510600000911
+      },
+      {
+        "round_trip_time": 3.052756480872631,
+        "inference_time": 0.39799617399989984,
+        "internal_request_time": 0.44630552499984333
+      },
+      {
+        "round_trip_time": 3.0758110573515296,
+        "inference_time": 0.4280660520000765,
+        "internal_request_time": 0.4739340640001046
+      }
+    ],
+    "round_trip": {
+      "avg": 3.0106326563283803,
+      "min": 2.8951315879821777,
+      "max": 3.171097792685032
+    },
+    "inference": {
+      "avg": 0.4069768890999967,
+      "min": 0.37183925899989845,
+      "max": 0.43736734300000535
+    },
+    "internal_request": {
+      "avg": 0.46507018559998414,
+      "min": 0.4436843500000123,
+      "max": 0.4866655849998551
+    }
+  },
+  "canny": {
+    "data": [
+      {
+        "round_trip_time": 2.2458477756008506,
+        "inference_time": 0.00751248200003829,
+        "internal_request_time": 0.021138943000096333
+      },
+      {
+        "round_trip_time": 2.356596793048084,
+        "inference_time": 0.009584329000063008,
+        "internal_request_time": 0.024366544000031354
+      },
+      {
+        "round_trip_time": 2.2562139090150595,
+        "inference_time": 0.002693906000104107,
+        "internal_request_time": 0.01728648899984364
+      },
+      {
+        "round_trip_time": 2.1990908412262797,
+        "inference_time": 0.005622945000141044,
+        "internal_request_time": 0.019581304999974236
+      },
+      {
+        "round_trip_time": 2.3026441950351,
+        "inference_time": 0.006674285999906715,
+        "internal_request_time": 0.021151752999912787
+      },
+      {
+        "round_trip_time": 2.25893285125494,
+        "inference_time": 0.00621685900000557,
+        "internal_request_time": 0.021210423999946215
+      },
+      {
+        "round_trip_time": 2.2650298327207565,
+        "inference_time": 0.0031101719998787303,
+        "internal_request_time": 0.01873349600009533
+      },
+      {
+        "round_trip_time": 2.1963769253343344,
+        "inference_time": 0.005548304000058124,
+        "internal_request_time": 0.019782408000082796
+      },
+      {
+        "round_trip_time": 2.3958609588444233,
+        "inference_time": 0.005536338999945656,
+        "internal_request_time": 0.02005161300007785
+      },
+      {
+        "round_trip_time": 2.3572962591424584,
+        "inference_time": 0.0021614600000248174,
+        "internal_request_time": 0.016594220000115456
+      }
+    ],
+    "round_trip": {
+      "avg": 2.2833890341222287,
+      "min": 2.1963769253343344,
+      "max": 2.3958609588444233
+    },
+    "inference": {
+      "avg": 0.0054661082000166065,
+      "min": 0.0021614600000248174,
+      "max": 0.009584329000063008
+    },
+    "internal_request": {
+      "avg": 0.0199897195000176,
+      "min": 0.016594220000115456,
+      "max": 0.024366544000031354
+    }
+  },
+  "shuffle": {
+    "data": [
+      {
+        "round_trip_time": 2.9687740625813603,
+        "inference_time": 0.03751035399977809,
+        "internal_request_time": 0.16111533900016184
+      },
+      {
+        "round_trip_time": 2.918939057737589,
+        "inference_time": 0.006160227999998824,
+        "internal_request_time": 0.1265392749999137
+      },
+      {
+        "round_trip_time": 3.0902196345850825,
+        "inference_time": 0.0065106699998978,
+        "internal_request_time": 0.1301072490000479
+      },
+      {
+        "round_trip_time": 2.582397013902664,
+        "inference_time": 0.006833233000179462,
+        "internal_request_time": 0.122505535000073
+      },
+      {
+        "round_trip_time": 4.975703856907785,
+        "inference_time": 0.0096788819998892,
+        "internal_request_time": 0.13280190599994057
+      },
+      {
+        "round_trip_time": 2.902390736155212,
+        "inference_time": 0.006746412999973472,
+        "internal_request_time": 0.13540175399998589
+      },
+      {
+        "round_trip_time": 2.955382033251226,
+        "inference_time": 0.010160463999909553,
+        "internal_request_time": 0.133679753000024
+      },
+      {
+        "round_trip_time": 2.860204809345305,
+        "inference_time": 0.010087066000096456,
+        "internal_request_time": 0.13249645100017915
+      },
+      {
+        "round_trip_time": 2.8943050783127546,
+        "inference_time": 0.0060278119999566115,
+        "internal_request_time": 0.13202986100009184
+      },
+      {
+        "round_trip_time": 2.8789974972605705,
+        "inference_time": 0.008840547999852788,
+        "internal_request_time": 0.12981538199983333
+      }
+    ],
+    "round_trip": {
+      "avg": 3.1027313780039547,
+      "min": 2.582397013902664,
+      "max": 4.975703856907785
+    },
+    "inference": {
+      "avg": 0.010855566999953225,
+      "min": 0.0060278119999566115,
+      "max": 0.03751035399977809
+    },
+    "internal_request": {
+      "avg": 0.13364925050002513,
+      "min": 0.122505535000073,
+      "max": 0.16111533900016184
+    }
+  },
+  "depth_leres": {
+    "data": [
+      {
+        "round_trip_time": 6.483718586154282,
+        "inference_time": 4.186829138999883,
+        "internal_request_time": 4.246054657000059
+      },
+      {
+        "round_trip_time": 5.669361460953951,
+        "inference_time": 3.2556297159999303,
+        "internal_request_time": 3.3125714299999345
+      },
+      {
+        "round_trip_time": 5.713226246647537,
+        "inference_time": 3.341925342999957,
+        "internal_request_time": 3.4029158910000206
+      },
+      {
+        "round_trip_time": 5.823068995960057,
+        "inference_time": 3.3694757529999606,
+        "internal_request_time": 3.437519424000129
+      },
+      {
+        "round_trip_time": 5.48352375254035,
+        "inference_time": 3.2896764590000203,
+        "internal_request_time": 3.3489002569999684
+      },
+      {
+        "round_trip_time": 5.700399028137326,
+        "inference_time": 3.251549809999915,
+        "internal_request_time": 3.308699555999965
+      },
+      {
+        "round_trip_time": 5.818182862363756,
+        "inference_time": 3.33512429800021,
+        "internal_request_time": 3.3914382659997955
+      },
+      {
+        "round_trip_time": 6.170567965134978,
+        "inference_time": 3.3370019740000316,
+        "internal_request_time": 3.392481054999962
+      },
+      {
+        "round_trip_time": 5.767619406804442,
+        "inference_time": 3.2261082769998666,
+        "internal_request_time": 3.321263576000092
+      },
+      {
+        "round_trip_time": 5.769680510275066,
+        "inference_time": 3.194247204000021,
+        "internal_request_time": 3.2555357369999456
+      }
+    ],
+    "round_trip": {
+      "avg": 5.839934881497174,
+      "min": 5.48352375254035,
+      "max": 6.483718586154282
+    },
+    "inference": {
+      "avg": 3.3787567972999795,
+      "min": 3.194247204000021,
+      "max": 4.186829138999883
+    },
+    "internal_request": {
+      "avg": 3.441737984899987,
+      "min": 3.2555357369999456,
+      "max": 4.246054657000059
+    }
+  },
+  "depth_leres++": {
+    "data": [
+      {
+        "round_trip_time": 36.278035463765264,
+        "inference_time": 33.72960927600002,
+        "internal_request_time": 33.80279603500003
+      },
+      {
+        "round_trip_time": 31.579172091558576,
+        "inference_time": 28.695937781999874,
+        "internal_request_time": 28.77203921199998
+      },
+      {
+        "round_trip_time": 29.804183142259717,
+        "inference_time": 27.095769377000124,
+        "internal_request_time": 27.17075828300017
+      },
+      {
+        "round_trip_time": 29.90607614349574,
+        "inference_time": 27.318662979999772,
+        "internal_request_time": 27.39114176200019
+      },
+      {
+        "round_trip_time": 29.591700414195657,
+        "inference_time": 26.993779967000137,
+        "internal_request_time": 27.065829643000143
+      },
+      {
+        "round_trip_time": 29.603788710199296,
+        "inference_time": 27.03028423600017,
+        "internal_request_time": 27.107321434999903
+      },
+      {
+        "round_trip_time": 29.681300372816622,
+        "inference_time": 26.97640355500016,
+        "internal_request_time": 27.050619248999737
+      },
+      {
+        "round_trip_time": 29.692157148383558,
+        "inference_time": 27.10976483100012,
+        "internal_request_time": 27.18144331099984
+      },
+      {
+        "round_trip_time": 29.79889168497175,
+        "inference_time": 27.10888480299991,
+        "internal_request_time": 27.18547579599999
+      },
+      {
+        "round_trip_time": 29.77740672789514,
+        "inference_time": 27.13131131199998,
+        "internal_request_time": 27.205573467999784
+      }
+    ],
+    "round_trip": {
+      "avg": 30.571271189954132,
+      "min": 29.591700414195657,
+      "max": 36.278035463765264
+    },
+    "inference": {
+      "avg": 27.919040811900025,
+      "min": 26.97640355500016,
+      "max": 33.72960927600002
+    },
+    "internal_request": {
+      "avg": 27.993299819399976,
+      "min": 27.050619248999737,
+      "max": 33.80279603500003
+    }
+  },
+  "mediapipe_face": {
+    "data": [
+      {
+        "round_trip_time": 2.3128720922395587,
+        "inference_time": 0.10292093799989743,
+        "internal_request_time": 0.11631711599966366
+      },
+      {
+        "round_trip_time": 2.3385879965499043,
+        "inference_time": 0.02923244000021441,
+        "internal_request_time": 0.042581201999837504
+      },
+      {
+        "round_trip_time": 2.335227486677468,
+        "inference_time": 0.02677854599960483,
+        "internal_request_time": 0.0402892070001144
+      },
+      {
+        "round_trip_time": 2.3535050973296165,
+        "inference_time": 0.02828888400017604,
+        "internal_request_time": 0.040820836999955645
+      },
+      {
+        "round_trip_time": 2.288559587672353,
+        "inference_time": 0.026641158000074938,
+        "internal_request_time": 0.03945764699983556
+      },
+      {
+        "round_trip_time": 2.6287256740033627,
+        "inference_time": 0.03072361600015938,
+        "internal_request_time": 0.043982849000258284
+      },
+      {
+        "round_trip_time": 2.282584687694907,
+        "inference_time": 0.02422693900007289,
+        "internal_request_time": 0.037303750999853946
+      },
+      {
+        "round_trip_time": 2.323210638947785,
+        "inference_time": 0.024731083999995462,
+        "internal_request_time": 0.03720762500006458
+      },
+      {
+        "round_trip_time": 2.46130164898932,
+        "inference_time": 0.0858075529999951,
+        "internal_request_time": 0.11080525899978966
+      },
+      {
+        "round_trip_time": 2.3554989406839013,
+        "inference_time": 0.022718708999946102,
+        "internal_request_time": 0.03571440799987613
+      }
+    ],
+    "round_trip": {
+      "avg": 2.3680073850788177,
+      "min": 2.282584687694907,
+      "max": 2.6287256740033627
+    },
+    "inference": {
+      "avg": 0.04020698670001366,
+      "min": 0.022718708999946102,
+      "max": 0.10292093799989743
+    },
+    "internal_request": {
+      "avg": 0.05444799009992494,
+      "min": 0.03571440799987613,
+      "max": 0.11631711599966366
+    }
+  },
+  "sam": {
+    "data": [
+      {
+        "round_trip_time": 7.473426333628595,
+        "inference_time": 5.2101110710000285,
+        "internal_request_time": 5.221265226000014
+      },
+      {
+        "round_trip_time": 6.655662109144032,
+        "inference_time": 4.302158740999857,
+        "internal_request_time": 4.313112447999629
+      },
+      {
+        "round_trip_time": 6.248105000704527,
+        "inference_time": 4.140317715000037,
+        "internal_request_time": 4.151866161000271
+      },
+      {
+        "round_trip_time": 6.446995988488197,
+        "inference_time": 4.266299135999816,
+        "internal_request_time": 4.2777836120003485
+      },
+      {
+        "round_trip_time": 6.775927037000656,
+        "inference_time": 4.3384097750004,
+        "internal_request_time": 4.349469551999846
+      },
+      {
+        "round_trip_time": 7.0525067364797,
+        "inference_time": 4.291081964000114,
+        "internal_request_time": 4.301927873000295
+      },
+      {
+        "round_trip_time": 6.557550106197596,
+        "inference_time": 4.3572129130002395,
+        "internal_request_time": 4.368583899999976
+      },
+      {
+        "round_trip_time": 6.647160052321851,
+        "inference_time": 4.289951452999958,
+        "internal_request_time": 4.301406079000117
+      },
+      {
+        "round_trip_time": 6.557187207043171,
+        "inference_time": 4.2747759799999585,
+        "internal_request_time": 4.285907073000089
+      },
+      {
+        "round_trip_time": 6.656147579662502,
+        "inference_time": 4.260420782999972,
+        "internal_request_time": 4.27158295900017
+      }
+    ],
+    "round_trip": {
+      "avg": 6.7070668150670825,
+      "min": 6.248105000704527,
+      "max": 7.473426333628595
+    },
+    "inference": {
+      "avg": 4.373073953100038,
+      "min": 4.140317715000037,
+      "max": 5.2101110710000285
+    },
+    "internal_request": {
+      "avg": 4.384290488300076,
+      "min": 4.151866161000271,
+      "max": 5.221265226000014
+    }
+  }
+}

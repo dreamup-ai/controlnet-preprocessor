@@ -1,5 +1,5 @@
 services:
-  controlnet-preprocessor:
+  localhost-benchmark:
     image: preprocessor-benchmark:latest
     network_mode: "host"
     build:
@@ -7,6 +7,50 @@ services:
       dockerfile: Dockerfile.benchmark
     environment:
       - BASE_URL=http://localhost:1234/
+      - OUTPUT_DIR=/app/benchmark_output
+      - OUTPUT_FILE=localhost-16cpu-32gbram-no-gpu.json
     volumes:
-      - ./benchmark_outputs:/app/benchmark_outputs
+      - ./benchmark_output:/app/benchmark_output
+      - ../images:/app/images
+  salad-2-benchmark:
+    image: preprocessor-benchmark:latest
+    # network_mode: "host"
+    build:
+      context: ./
+      dockerfile: Dockerfile.benchmark
+    environment:
+      - BASE_URL=https://secret-redbean-fennel.salad.cloud/
+      - OUTPUT_DIR=/app/benchmark_output
+      - OUTPUT_FILE=salad-4cpu-16gbram-no-gpu.json
+      - API_KEY=${SALAD_API_KEY}
+    volumes:
+      - ./benchmark_output:/app/benchmark_output
+      - ../images:/app/images
+  salad-3-benchmark:
+    image: preprocessor-benchmark:latest
+    # network_mode: "host"
+    build:
+      context: ./
+      dockerfile: Dockerfile.benchmark
+    environment:
+      - BASE_URL=https://chestnut-plantain-cream.salad.cloud/
+      - OUTPUT_DIR=/app/benchmark_output
+      - OUTPUT_FILE=salad-2cpu-16gbram-gtx1650-4gb.json
+      - API_KEY=${SALAD_API_KEY}
+    volumes:
+      - ./benchmark_output:/app/benchmark_output
+      - ../images:/app/images
+  salad-4-benchmark:
+    image: preprocessor-benchmark:latest
+    # network_mode: "host"
+    build:
+      context: ./
+      dockerfile: Dockerfile.benchmark
+    environment:
+      - BASE_URL=https://medium-yuzu-cream.salad.cloud/
+      - OUTPUT_DIR=/app/benchmark_output
+      - OUTPUT_FILE=salad-4cpu-16gbram-rtx4090-24gb.json
+      - API_KEY=${SALAD_API_KEY}
+    volumes:
+      - ./benchmark_output:/app/benchmark_output
       - ../images:/app/images
