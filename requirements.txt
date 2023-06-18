@@ -1,3 +1,4 @@
 git+https://github.com/patrickvonplaten/controlnet_aux#8958bb7
 Flask
 mediapipe
+rembg

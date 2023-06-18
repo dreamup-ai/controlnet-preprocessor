@@ -5,6 +5,8 @@ import os
 import logging
 import time
 from waitress import serve
+from rembg import remove
+from PIL import Image
 from controlnet_aux import (
     HEDdetector,
     MidasDetector,
@@ -56,68 +58,76 @@ canny = CannyDetector()
 content = ContentShuffleDetector()
 face_detector = MediapipeFaceDetector()
 
+
+def remove_bg(image_bytes, output_type="pil"):
+    # Remove bg and return as PIL or bytes as specified
+    result = remove(image_bytes)
+    return result
+
+
 log.info("Checkpoints loaded.")
 
 processors = {
-    "scribble_hed": {"class": hed, "config": {"scribble": True}},
-    "softedge_hed": {"class": hed, "config": {"scribble": False}},
+    "scribble_hed": {"callable": hed, "config": {"scribble": True}},
+    "softedge_hed": {"callable": hed, "config": {"scribble": False}},
     "scribble_hedsafe": {
-        "class": hed,
+        "callable": hed,
         "config": {"scribble": True, "safe": True},
     },
     "softedge_hedsafe": {
-        "class": hed,
+        "callable": hed,
         "config": {"scribble": False, "safe": True},
     },
-    "depth_midas": {"class": midas, "config": {}},
-    "mlsd": {"class": mlsd, "config": {}},
+    "depth_midas": {"callable": midas, "config": {}},
+    "mlsd": {"callable": mlsd, "config": {}},
     "openpose": {
-        "class": open_pose,
+        "callable": open_pose,
         "config": {"include_body": True, "include_hand": False, "include_face": False},
     },
     "openpose_face": {
-        "class": open_pose,
+        "callable": open_pose,
         "config": {"include_body": True, "include_hand": False, "include_face": True},
     },
     "openpose_faceonly": {
-        "class": open_pose,
+        "callable": open_pose,
         "config": {"include_body": False, "include_hand": False, "include_face": True},
     },
     "openpose_full": {
-        "class": open_pose,
+        "callable": open_pose,
         "config": {"include_body": True, "include_hand": True, "include_face": True},
     },
     "openpose_hand": {
-        "class": open_pose,
+        "callable": open_pose,
         "config": {"include_body": False, "include_hand": True, "include_face": False},
     },
     "scribble_pidinet": {
-        "class": pidi,
+        "callable": pidi,
         "config": {"safe": False, "scribble": True},
     },
     "softedge_pidinet": {
-        "class": pidi,
+        "callable": pidi,
         "config": {"safe": False, "scribble": False},
     },
     "scribble_pidsafe": {
-        "class": pidi,
+        "callable": pidi,
         "config": {"safe": True, "scribble": True},
     },
     "softedge_pidsafe": {
-        "class": pidi,
+        "callable": pidi,
         "config": {"safe": True, "scribble": False},
     },
-    "normal_bae": {"class": normal_bae, "config": {}},
-    "lineart_realistic": {"class": lineart, "config": {"coarse": False}},
-    "lineart_coarse": {"class": lineart, "config": {"coarse": True}},
-    "lineart_anime": {"class": lineart_anime, "config": {}},
-    "canny": {"class": canny, "config": {}},
-    "shuffle": {"class": content, "config": {}},
-    # "depth_zoe": {"class": zoe, "config": {}},
-    "depth_leres": {"class": leres, "config": {"boost": False}},
-    "depth_leres++": {"class": leres, "config": {"boost": True}},
-    "mediapipe_face": {"class": face_detector, "config": {}},
-    "sam": {"class": sam, "config": {}},
+    "normal_bae": {"callable": normal_bae, "config": {}},
+    "lineart_realistic": {"callable": lineart, "config": {"coarse": False}},
+    "lineart_coarse": {"callable": lineart, "config": {"coarse": True}},
+    "lineart_anime": {"callable": lineart_anime, "config": {}},
+    "canny": {"callable": canny, "config": {}},
+    "shuffle": {"callable": content, "config": {}},
+    # "depth_zoe": {"callable": zoe, "config": {}},
+    "depth_leres": {"callable": leres, "config": {"boost": False}},
+    "depth_leres++": {"callable": leres, "config": {"boost": True}},
+    "mediapipe_face": {"callable": face_detector, "config": {}},
+    "sam": {"callable": sam, "config": {}},
+    "remove_background": {"callable": remove_bg, "config": {}},
 }
 
 
@@ -162,7 +172,7 @@ def process_image(processor_id: str):
         )
 
     # Process the image
-    processor = processors[processor_id]["class"]
+    processor = processors[processor_id]["callable"]
     config = processors[processor_id]["config"]
     inference_start = time.perf_counter()
     try:
