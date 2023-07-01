@@ -183,10 +183,16 @@ def process_image(processor_id: str):
     # Return the result as a lossless webp
     buffer = BytesIO()
     try:
-        result.save(buffer, format="webp", lossless=True)
+        if processor_id == "remove_background":
+            export = {"format": "png"}
+        else:
+            export = {"format": "webp", "lossless": True}
+        result.save(buffer, **export)
         buffer.seek(0)
         request_end = time.perf_counter()
-        response = make_response(send_file(buffer, mimetype="image/webp"))
+        response = make_response(
+            send_file(buffer, mimetype=f"image/{export['format']}")
+        )
         response.headers["X-Request-Time"] = str(request_end - request_start)
         response.headers["X-Inference-Time"] = str(inference_end - inference_start)
         return response

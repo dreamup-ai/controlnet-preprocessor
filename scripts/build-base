@@ -3,7 +3,7 @@
 # Figure out if we need python or python3
 PYTHON=$(which python3 || which python)
 
-IMAGE_REPO=${IMAGE_REPO:-shawndreamupai/controlnet-preprocessor}
+IMAGE_REPO=${IMAGE_REPO:-"public.ecr.aws/i0t3i1w9/controlnet-preprocessor"}
 VERSION=$($PYTHON -c 'from server.__version__ import VERSION; print(VERSION)')
 
 docker build \

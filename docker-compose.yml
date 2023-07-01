@@ -1,6 +1,6 @@
 services:
   controlnet-preprocessor:
-    image: shawndreamupai/controlnet-preprocessor:latest
+    image: public.ecr.aws/i0t3i1w9/controlnet-preprocessor:latest
     # runtime: nvidia
     # build:
     #   context: ./
@@ -12,3 +12,4 @@ services:
       - PORT=1234
     # volumes:
     #   - ./models:/models
+    

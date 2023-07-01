@@ -1,6 +1,6 @@
 ARG BASE_VERSION=base
 
-FROM shawndreamupai/controlnet-preprocessor:${BASE_VERSION}
+FROM public.ecr.aws/i0t3i1w9/controlnet-preprocessor:${BASE_VERSION}
 
 # Get the local path of models via build args
 ARG ANNOTATOR_PATH
